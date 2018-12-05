@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>  
+	<!-- El objetivo de este ejemplo es probar el funcionamiento de:
+		1. Las propiedades de CSS para bordes, paddin y margn
+		2. La diferencia entre padding y margin
+		3. De paso se aprovecha para practicar la diferencia entre los selectores de id y agrupamiento
+	-->
+	<style> 
+		div#contenedor {
+			margin: 100px 100px 100px 50px;
+			borde: 3px dotted blue ;
+		}
+		#contenedor div {
+			margin-top: 15px;
+			margin-right: 15px;
+			margin-bottom: 15px;
+			margin-left: 15px;
+			padding: 20px 10px;
+			border: 3px dotted red;
+			font-size: 0.5in;
+		}
+	</style>
+  
+	<title>Atributos del modelo de cajas</title>  
+</head>
+
+<body>
+	<div id="contenedor">
+		<div>Texto de 0.5 pulgadas</div>
+	</div>
+</body>
+
+</html>

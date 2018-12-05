@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- El objetivo de esta página es que el estudiante aprenda a diferenciar entre los tipos de posicionamiento de CSS 
+			 Aspectos importantes a considerar:
+			 1. La página tiene un scroll vertical a propósito para probar cómo se comportan los elementos fixed y sticky
+			 2. Un elemento con posicionamiento absoluto no se coloca respecto al borde de la página, sino respecto al último elemento posicionado
+			 3. De ahí a que la capa 2 se posicione respecto a la capa 1 
+			 4. Los únicos elementos que no desaparecen tras el scroll son los de tipo fixed y sticky -->
+			 
+		<style> 
+			body{
+				height: 1500px;
+			}
+		
+			div{
+				border: 1px solid black;
+			}
+			
+			.small{
+				width: 100px;
+				height: 100px;				
+			}
+	
+			#capa1 {				
+				position: relative;
+				top: 100px;
+				left: 100px;	
+				width: 200px;
+				height: 200px;	
+				background-color: grey;				
+			}
+			
+			#capa2 {
+				position: absolute;
+				left: 30px;
+				top: 30px;
+				background-color: red;	
+			}
+			
+			#capa3 {
+				position: static;				
+				top: 20px;
+				left: 20px;		
+				background-color: green;
+					
+			}
+			
+			#capa4 {
+				position: fixed;
+				top: 20px;
+				left: 20px;			
+				background-color: yellow;		
+			}
+			
+			#capaSticky {				
+				position: sticky;									
+				left: 50%;
+				top: 20px;
+				background-color: lightblue;				
+			}
+					
+			#capa1 span{
+				position: absolute;
+				bottom: 0px;				
+				left: 50%;
+				transform: translateX(-50%);				
+			}
+			´
+		</style>
+		
+		<title>Atributos de Posicionamiento</title>
+	</head>
+	
+	<body>
+		<div id="capa1">			
+			<div id="capa2" class="small"><span>Absolute</span></div>
+			<div id="capa3" class="small">Static</div>
+			<div id="capa4" class="small">Fixed</div>
+			<span>Relative</span>
+		</div>
+		
+		<div id="capaSticky" class="small">			
+			<span>Sticky</span>
+		</div>
+	</body>
+</html>
