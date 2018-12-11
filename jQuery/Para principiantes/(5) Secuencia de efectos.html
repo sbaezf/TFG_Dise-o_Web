@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Ejemplo secuencia </title>
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		//En este ejemplo se muestra el una sequencia de métodos que encadenan efectos que se ejecutan en el tiempo que reciben como parámetro
+		//La idea es mostrar que el parámetro de tiempo (en milisegundos) solo funciona con métodos relacionados con efectos
+		//Por ejemplo, si incluimos la función css entre medias, se ejecutará sin tener en cuenta el parámetro de tiempo
+		//También se muestra el funcionamiento de la función callback, que se ejecuta inmediatamente después de cada efecto
+	
+		var ocultar=function () { 
+			$("#misdivs3").css({"background": "green"});
+			$("#misdivs3").fadeIn(2000); 
+		};
+			
+		$(document).ready(function() {
+			$("#misdivs").fadeOut(2000).css({"background": "blue"}).fadeIn(2000);
+			$("#misdivs2").fadeOut(2000, function(){
+				$("#misdivs2").css({"background": "red"});
+				$("#misdivs2").fadeIn(2000);
+			});
+			
+			$("#misdivs3").fadeOut(2000, ocultar);		
+		});
+		
+	</script>
+	<style>
+		body { background: #666; }
+		h1{color:#00CC00;}
+		.misdivs {background: #623; }
+	</style>
+</head>
+<body>
+	<h1> Titulo </h1>
+	<div id="misdivs">mis divs</div>
+	<div id="misdivs2">mis divs</div>
+	<div id="misdivs3">mis divs</div>
+</body>
+</html>
+
