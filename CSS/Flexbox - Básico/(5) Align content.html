@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- En este ejemplo se prueba la propiedad align-content que sirve para alinear en un contenedor las secuencias de ítems 
+		que ocupan más de una línea -->
+
+	<style>
+		#flex-container1{
+		  display: flex;
+		  flex-wrap: wrap;
+		  align-content: center;
+		}
+		
+		#flex-container2{
+		  display: flex;
+		  flex-wrap: wrap;
+		  align-content: flex-start;
+		}
+		
+		#flex-container3{
+		  display: flex;
+		  flex-wrap: wrap;
+		  align-content: flex-end;
+		}
+		
+		#flex-container4{
+		  display: flex;
+		  flex-wrap: wrap;
+		  align-content: space-around;
+		}
+		
+		#flex-container5{
+		  display: flex;
+		  flex-wrap: wrap;
+		  align-content: space-between;
+		}
+		
+		#flex-container6{
+		  display: flex;
+		  flex-wrap: wrap;
+		  align-content: stretch;
+		}
+		
+		.flex-container {
+		  width: 50%;
+		  height: 300px;
+		  background-color: DodgerBlue;
+		  border: 1px solid black;
+		}
+
+		.flex-container > div {
+		  background-color: #f1f1f1;
+		  width: 100px;		  
+		  height: 50px;
+		  margin: 10px;
+		  text-align: center;		  
+		  font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+	<h1>align-content (wrap es necesario, si no los ítems ocuparán el ancho del contenedor)</h1>
+
+	<p>"align-content: center;" agrupa los ítems en el centro del eje principal</p>
+
+	<div id="flex-container1" class="flex-container">
+	  <div>1</div>
+	  <div>2</div>
+	  <div>3</div>  
+	  <div>4</div>
+	  <div>5</div>
+	  <div>6</div>  
+	  <div>7</div>
+	  <div>8</div>
+	  <div>9</div>  
+	  <div>10</div>
+	  <div>11</div>
+	  <div>12</div> 
+	</div>
+	
+	<p>"align-content: flex-start;" agrupa los ítems al principio del eje principal</p>
+
+	<div id="flex-container2" class="flex-container">
+	  <div>1</div>
+	  <div>2</div>
+	  <div>3</div>  
+	  <div>4</div>
+	  <div>5</div>
+	  <div>6</div>  
+	  <div>7</div>
+	  <div>8</div>
+	  <div>9</div>  
+	  <div>10</div>
+	  <div>11</div>
+	  <div>12</div> 
+	</div>
+	
+	<p>"align-content: flex-end;" agrupa los ítems al final del eje principal</p>
+
+	<div id="flex-container3" class="flex-container">
+	  <div>1</div>
+	  <div>2</div>
+	  <div>3</div>  
+	  <div>4</div>
+	  <div>5</div>
+	  <div>6</div>  
+	  <div>7</div>
+	  <div>8</div>
+	  <div>9</div>  
+	  <div>10</div>
+	  <div>11</div>
+	  <div>12</div> 
+	</div>
+	
+	<p>"align-content: space-around;" distribuye los ítems dejando el mismo espacio a los lados de cada uno</p>
+
+	<div id="flex-container4" class="flex-container">
+	  <div>1</div>
+	  <div>2</div>
+	  <div>3</div>  
+	  <div>4</div>
+	  <div>5</div>
+	  <div>6</div>  
+	  <div>7</div>
+	  <div>8</div>
+	  <div>9</div>  
+	  <div>10</div>
+	  <div>11</div>
+	  <div>12</div> 
+	</div>
+	
+	<p>"align-content: space-between;" distribuye los ítems desde el principio hasta el final</p>
+
+	<div id="flex-container5" class="flex-container">
+	  <div>1</div>
+	  <div>2</div>
+	  <div>3</div>  
+	  <div>4</div>
+	  <div>5</div>
+	  <div>6</div>  
+	  <div>7</div>
+	  <div>8</div>
+	  <div>9</div>  
+	  <div>10</div>
+	  <div>11</div>
+	  <div>12</div> 
+	</div>
+	
+	<p>"align-content: strech;" estira los items para ocupar de forma equitativa todo el espacio</p>
+	
+	<div id="flex-container6" class="flex-container">
+	  <div>1</div>
+	  <div>2</div>
+	  <div>3</div>  
+	  <div>4</div>
+	  <div>5</div>
+	  <div>6</div>  
+	  <div>7</div>
+	  <div>8</div>
+	  <div>9</div>  
+	  <div>10</div>
+	  <div>11</div>
+	  <div>12</div> 
+	</div>
+	
+</body>
+</html>
