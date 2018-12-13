@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Página con Flexbox</title>
+	<link href="Flex con responsive.css" rel="stylesheet" type="text/css">
+	
+	<!-- Esta página es un ejemplo de maquetación con propiedades de modelo flexbox 
+		 Se utilizan por un lado las propiedades flex-direction y flex-wrap para definir la orientación de los elementos y 
+		 si se ajustan en una o varias líneas. Y por otro lado con flex-grow y flex-basis definimos las dimensiones de los 
+		 elementos con proporciones y tamaños lo más relativos posible
+
+		 Además, la página es responsiva. Esto se puede hacer de manera sencilla cambiando las propiedades flex-grow y flex-basis
+		 y cambiando el orden de algunos elementos con order -->
+</head>
+<body>  	
+	<div class="flex-container">
+		<header class="item">
+		  <h1>Cabecera</h1>
+		  <nav>
+			<ul>
+			  <li>Inicio</li>
+			  <li>Contacto</li>
+			  <li>Acerca de</li>
+			</ul>
+		  </nav>
+		</header>
+		<section id="cuerpo" class="item">Cuerpo</section>
+		<aside class="item">Lateral</aside>
+		<footer class="item">Pie</footer>       
+	</div>
+</body>
+</html>
