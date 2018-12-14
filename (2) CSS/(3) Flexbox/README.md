@@ -1,4 +1,4 @@
-﻿# CARPETA CSS - Flexbox
+﻿# CSS - Flexbox
 Páginas web con propiedades básicas asociadas a `display: flex`
 
 Todas estas páginas incluyen los estilos en la etiqueta `<style>`
