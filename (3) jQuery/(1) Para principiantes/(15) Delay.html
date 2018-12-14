@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Ejemplo de animación con delay()</title>
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		//Este ejemplo sirve para explicar el funcionamiento de delay, que permite añadir un retardo de n milisegundos
+		//Solo funciona con aquellos métodos relacionados con efectos y animaciones y trabajan con un tiempo en milisegundos como parámetro
+	
+		$(document).ready(function(){
+			$("div").click(function() {			
+			   $("div.antes").slideUp(1000);
+			   $("div.antes").fadeIn(2000);
+			   $("div.despues").delay(2000);
+			   $("div.despues").slideUp(1000);
+			   $("div.despues").fadeIn(1000);
+			});
+		});
+	</script>
+	<style>
+		div.antes {	
+			background-color:greenyellow;
+		}
+		div.despues {
+			background-color:red;
+		}
+	</style>
+</head>
+<body>
+	<h3> Pincha en cualquiera de los textos </h3>
+	<div class="antes"><p>Antes </p> </div>
+	<div class="despues"><p>Después  </p> </div>
+	<div class="antes"><p>Antes </p> </div>
+	<div class="despues"><p>Después  </p> </div>
+</body>
+</html>
+

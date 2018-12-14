@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Selectores basados en identificadores y atributos</title>
+	<!-- En esta página se estudian los selectores a nivel de id y en función de los atributos -->
+	<style> 
+		#cabecera, a[href="#cabecera"]{
+			background:#CCC; 
+			border:1px solid #093; 
+			margin:10px 12px 20px 15px; 
+		} 
+	</style> 
+</head> 
+<body> 
+  <div id="cabecera"> Aquí está la cabecera con el estilo definido a nivel de ID</div> 
+  <div id="cabecera"> Aquí está la cabecera con un estilo definido a nivel de ID empleando el mismo identificador. ESTO NO DEBE HACERSE pero funciona en la mayoría de navegadores</div> 
+  <a href="#cabecera"> Ir a la cabecera (con el mismo estilo, pero definido a nivel de atributo) </a> 
+</body> 
+
+</html>

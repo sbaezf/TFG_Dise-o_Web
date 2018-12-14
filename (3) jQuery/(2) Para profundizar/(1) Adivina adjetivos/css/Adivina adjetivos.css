@@ -1,0 +1,15 @@
+span { 
+	cursor:pointer;
+}
+
+/* Esta clase se añade dinámicamente al posicionarnos encima
+Se podría hacer con el selector :hover pero así se practica su uso con jQuery */									
+span.hilite { 
+	background:yellow; 
+} 
+
+ /*Se pone inline para que al quitar se ocupe su hueco al lado */									  
+div#resultado { 
+	display:inline; 
+	color:red; 
+}

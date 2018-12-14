@@ -1,0 +1,18 @@
+div {
+	position: relative;
+	width: 90px;
+	height: 90px;
+	margin: 5px;
+}
+
+#cuadrado1{
+	background-color: greenyellow;
+}
+
+#cuadrado2{
+	background-color: red;
+}
+
+#cuadrado3{
+	background-color: blue;
+}

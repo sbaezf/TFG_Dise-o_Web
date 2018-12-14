@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Ejemplo de animación con animate()</title>
+
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			//Este ejemplo sirve para probar el funcionamiento de método animate
+			//Este método permite añadir animaciones mediante el cambio de valor de aquellos atributos de CSS numéricos
+			//Por ejemplo, no se podría emplear con background-color
+			//En este caso se utiliza left, width, opacity, margin-left, font-size, border-width
+			//Importante echar un vistazo a la notación de los atributos que tienen un guión como los ya citados
+		
+			$("#right").click(function(){ //Animación del botón derecho.
+				$(".block").animate({"left": "+=50px"}, "slow");
+			});
+			$("#left").click(function(){//Animación del botón izquierdo.
+				$(".block").animate({"left": "-=50px"}, "slow");
+			});
+			$("div").click(function(){ //al hacer click en div, cambia de tamaño
+				$("div").animate({
+					width: "70%",
+					opacity: 0.5,
+					marginLeft: "0.6in",
+					fontSize: "3em",
+					borderWidth: "10px"
+				}, 1500 );
+			});
+		});
+
+	</script>
+	<style>
+		div {
+			position:absolute;
+			background-color:greenyellow;
+			left:50px;
+			width:90px;
+			height:90px;
+			margin:5px;
+		}
+	</style>
+</head>
+<body>
+	<button id="left">&laquo;</button> 
+    <button id="right">&raquo;</button>
+	<div class="block">Pincha AQUÍ también</div>
+</body>
+</html>
+

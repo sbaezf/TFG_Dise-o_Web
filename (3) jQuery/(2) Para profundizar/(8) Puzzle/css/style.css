@@ -1,0 +1,40 @@
+.listas {
+    list-style-type: none;
+    padding: 0;
+    width: 620px;
+}
+
+.listas li {
+    padding: 1px;
+    float: left;
+    width: 150px;
+    height: 100px;
+    font-size: 4em;
+    text-align: center;
+}
+
+#aguila {
+    display: none;
+}
+
+#perro {
+    display: none;
+}
+
+#escarabajo {
+    display: none;
+}
+
+#botones { /*botones que ayudan a resolver o a revolver*/
+    margin-top: 25px;
+    text-align: center;
+}
+
+#centro{ /*div del centro que contiene las imagenes y el puzzle*/
+    text-align: center;
+}
+
+.lateral{ /*fotos del lateral que seleccionan el puzzle*/
+    width: 200px;
+    height: 133px;
+}

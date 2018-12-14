@@ -1,0 +1,29 @@
+input{
+	position: relative;
+	z-index: 99;
+}
+
+#textoCabecera{
+	font-size: 30px;
+}
+
+/* El detonador de fuegos artificiles se situa abajo en el centro */
+#bloque1 {
+	position: absolute;
+	bottom: 0px;
+	width: 100px;
+	height: 100px;
+	left: 50%;
+	transform: translate(-50%);
+	margin-bottom: 5px;
+	background-color: blue;
+	z-index: 99;
+}
+
+/* Estilos comunes para cada imagen de fuegos artificiales */
+.fuego{
+	display: none;
+	position: absolute;			
+	width: 150px;
+	height: 150px;
+}

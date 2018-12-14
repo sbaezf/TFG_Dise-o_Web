@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		div{
+			width: 50%
+		}
+	</style>
+		
+	<!-- Este ejemplo sirve para probar la etiqueta picture de HTML5 con varias resoluciones
+		 Esta etiqueta, aparte de mostrar una imagen por resolución, también tiene en cuenta el DPI
+		 Por tanto, en función de si un dispositivo es 1x, 1.5x, 2x o 3x, se muestra una imagen u otra -->
+</head>
+<body>
+
+<div>
+	<picture>	
+		<source
+			media="(min-width: 600px)"
+			sizes="100vw"
+			srcset="images/opera-house-landscape-400.jpg 400w,
+					images/opera-house-landscape-800.jpg 800w,
+					images/opera-house-landscape-1200.jpg 1200w">
+		<img
+			src="opera-house-400.jpg" alt="The Oslo Opera House"
+			sizes="80vw"
+			srcset="images/opera-house-400.jpg 400w,
+					images/opera-house-800.jpg 800w,
+					images/opera-house-1200.jpg 1200w">
+	</picture>
+</div>
+
+</body>
+</html>

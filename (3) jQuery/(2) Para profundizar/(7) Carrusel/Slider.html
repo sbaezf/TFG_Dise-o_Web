@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Slider</title> 
+  <link rel="stylesheet" type="text/css" href="css/slider.css" />
+  <script type="text/javascript" src="javascript/jquery-3.3.1.js" ></script>
+  <script type="text/javascript" src="javascript/galeria.js" ></script>
+  <script type="text/javascript" src="javascript/funciones.js" ></script>
+  
+  <!-- Este componente es un carrusel de imágenes que van cambiándose cada N segundos
+		 También se puede cambiar de imagen manualmente con los botones de debajo
+	-->
+  
+  <script>	
+    //Funcion ejecutada al cargarse todo el documento -> equivale a $(document).ready(function(){...}
+    $(function (){
+      cargarImagenesInicio(); //Inicializamos las imágenes y las ocultamos
+      generar_selector();  //Creamos los botones que permiten seleccionar las imágenes
+      seleccionar(1);     //Selecciomamos inicialmente la primera
+    });
+  </script>
+
+</head>
+
+<body>
+<div class="contenido">
+  <nav> 
+    <ul id="selector"></ul>
+  </nav>
+  <section class="caja">
+    <img id="foto1" alt="" src="images/1.jpg"/>
+	<img id="foto2" alt="" src="images/2.jpg"/>
+	<img id="foto3" alt="" src="images/3.jpg"/>
+	<img id="foto4" alt="" src="images/4.jpg"/>
+	<img id="foto5" alt="" src="images/5.jpg"/>
+  </section>
+  </div>
+</body>
+</html>

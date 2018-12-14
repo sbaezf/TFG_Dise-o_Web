@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+ 		<title>Ejemplo de animación con slideDown() </title>
+		<meta charset="ISO-8859-1">
+		<script type="text/javascript" src="jquery-3.3.1.js"></script>
+		<script type="text/javascript">
+			//Este ejempo sirve para explicar el funcionamiento de las funciones slideDown y slideUp que hacen que un elemento
+			//aparezca y desaparezca, respectivamente, con efecto de deslizamiento
+		
+			$(document).ready(function() {
+				$("span").click(function () {
+					if ($("div:first").is(":hidden")) {
+						$("div").slideDown("slow");
+					} else {
+						$("div").slideUp("slow")
+					}
+				});
+			});
+
+		</script>
+		<style>
+			span {color: red}
+			div { background:#de9a44; margin:3px; width:80px; height:140px; display:none; float:left; }
+		</style>
+
+	</head>
+	<body>
+		
+		<span>¡Pincha Aquí!</span>
+		<div>Los efectos no son sólo para divs o spans</div>
+		<div>También son para cualquier elemento </div>
+		<div><button id="hidr">Botones también</button></div>
+		<div><p> aunque no estén incluidos en un div </p></div>
+	</body>
+</html>
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Recopilación de propiedades básicas de Bootstrap</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+	<!-- Bootstrap -->
+	<link href="../bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet"> 
+	
+	<!-- Estilos personalizados -->
+	<link href="css/grid.css" rel="stylesheet">	
+  
+  	<link href="Recopilación.css" rel="stylesheet">
+	
+	<!-- El presente archivo es una página que recopila propiedades del modelo de grid, display, espaciado, order y flex 
+		 Probar a redimensionar
+	-->
+</head>
+<body>
+
+<div class="container-fluid">
+	<h1>Recopilación de propiedades básicas de Bootstrap 4</h1>
+
+	<div class="row">
+		<div class="col-12 d-md-block">
+			<div class="row">
+				<div class="col-lg-6">2</div>		
+				<div class="col-lg-6">3</div>  
+			</div>
+		</div>		
+	</div>	
+		
+	<div class="row grande border border-warning align-items-center">	
+		<div class="col-sm-6 order-sm-2 col-md-4 order-md-1 col-xl-3 ml-xl-auto">4</div>
+		<div class="col-sm-6 order-sm-3 col-md-4 order-md-2 col-xl-3 ml-xl-auto">5</div>
+		<div class="col-sm-6 order-sm-1 col-md-4 order-md-3 col-xl-3 ml-xl-auto">6</div>
+	</div>
+</div>
+    
+</body>
+</html>

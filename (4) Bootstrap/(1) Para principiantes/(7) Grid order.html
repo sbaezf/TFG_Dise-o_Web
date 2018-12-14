@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Atributo order</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <!-- Bootstrap -->
+  <link href="bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/grid.css" rel="stylesheet">
+
+  <!-- En este ejemplo se prueba la propiedad order que permite alterar la posición de los elementos
+	   según donde están situados en la página. La utilidad de esta propiedad reside sobre todo
+	   en diseños responsivos donde la localización de los componentes cambia -->
+</head>
+<body>
+
+<div class="container-fluid">
+  <h1>Order incorrecto</h1>
+  <div class="row">
+	<div class="col">Sin ningún orden definido</div>
+	<div class="col order-12">Según el orden debería ser el último</div>
+	<div class="col order-1" style="background-color:red">Debería aparecer el primero</div> <!-- ¡¡CUIDADO!! -->
+  </div>
+
+  <h1>Order correcto</h1>
+  <div class="row">
+	<div class="col order-2">Primero, con orden 2</div> <!-- Añadimos el orden de esta columna -->
+	<div class="col order-12">Segundo, con orden 12</div>
+	<div class="col order-1" style="background-color:green">Tercero, con orden 1</div>
+  </div>
+</div>
+
+</body>
+</html>
