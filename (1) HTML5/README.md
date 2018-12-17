@@ -17,3 +17,55 @@ https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(1.2)%20Im%C3%A1genes%20(atributo%2
 
 (1.3) Imágenes (diferentes formatos).html
 https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(1.3)%20Imágenes%20(diferentes%20formatos).html
+
+
+(2.1) Audio (botones).html						
+https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(2.1)%20Audio%20(botones).html
+
+
+(2.2) Audio (diferentes navegadores).html		
+https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(2.2)%20Audio%20(diferentes%20navegadores).html
+
+
+(2.3) Audio (en HTML5).html						
+https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(2.3)%20Audio%20(en%20HTML5).html
+
+
+(2.4) Audio (oculto).html						
+https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(2.4)%20Audio%20(oculto).html
+
+
+(3.1) Vídeo (diferentes navegadores).html		
+https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(3.1)%20V%C3%ADdeo%20(diferentes%20navegadores).html
+
+
+(3.2) Vídeo (en HTML5).html						
+https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(3.2)%20V%C3%ADdeo%20(en%20HTML5).html
+
+
+(3.3) Vídeo (iframe).html						
+https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(3.3)%20V%C3%ADdeo%20(iframe).html
+
+
+(4.1) Animaciones (color de fondo).html			
+https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(4.1)%20Animaciones%20(color%20de%20fondo).html
+
+
+(4.2) Animaciones (combinar varios efectos).html
+https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(4.2)%20Animaciones%20(combinar%20varios%20efectos).html
+
+
+(4.3) Animaciones (fill-mode backwards).html	
+https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(4.3)%20Animaciones%20(fill-mode%20backwards).html
+
+
+(4.4) Animaciones (pelota rodando).html			
+https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(4.4)%20Animaciones%20(pelota%20rodando).html
+
+
+(5.1) Etiquetas semánticas (sin estilos).html	
+https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(5.1)%20Etiquetas%20sem%C3%A1nticas%20(sin%20estilos).html
+
+
+(5.2) Etiquetas semánticas (con estilos).html
+https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(5.2)%20Etiquetas%20sem%C3%A1nticas%20(con%20estilos).html
