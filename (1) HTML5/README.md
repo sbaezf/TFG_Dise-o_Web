@@ -8,10 +8,8 @@ Esta es una práctica poco recomendable, pero válida en este caso, ya que facil
 Listado de páginas con enlace para visualizar en el navegador:
 
 (1.1) Imágenes (atributo picture).html
-
-https://sbaezf.github.io/TFG_Web/(1) HTML5/(1.1) Imágenes (atributo picture).html
+(1)%20HTML5/(1.1)%20Imágenes%20(atributo%20picture).html
 
 
 (1.2) Imágenes (atributo picture, varios tamaños).html
-
-https://sbaezf.github.io/TFG_Web/(1) HTML5/(1.2) Imágenes (atributo picture, varios tamaños).html
+https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(1.2)%20Im%C3%A1genes%20(atributo%20picture%2C%20varios%20tama%C3%B1os).html
