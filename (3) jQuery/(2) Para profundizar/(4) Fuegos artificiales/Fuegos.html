@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Fuegos artificiales</title>
+
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/Fuegos.js"></script>
+	<link rel="stylesheet" href="css/Fuegos.css">
+</head>
+<body>
+	<!--Esta página simula un detonador de fuegos artificiales
+		Para su implementación, tenemos una serie de imágenes que muestran cuando pulsamos el detonador
+		Estas imágenes se situan en una posición aleatoria dentro de la pantalla 
+		Tras ejecutar la animación 5 veces, ocultamos todas y empezamos de nuevo 
+		Además, los botones de la derecha del texto, aparte de cambiar su tamaño se encargan de ralentizar o hacer más rápida la animación -->
+	<div id="cabecera">
+		<a id="textoCabecera">Pulsa la caja para lanzar fuegos artificiales</a>
+		<input id="aumentar" type="button" value="+" />		
+		<input id="disminuir" type="button" value="-" />
+	</div>
+
+	<!-- Este div es el detonador de fuegos artificiales -->
+	<div id="bloque1"></div>
+	
+	<img id="fuego1" src="multimedia/fuegos1.jpg" class="fuego"></img>
+	<img id="fuego2" src="multimedia/fuegos2.jpg" class="fuego"></img>
+	<img id="fuego3" src="multimedia/fuegos3.jpg" class="fuego"></img>
+	<img id="fuego4" src="multimedia/fuegos4.jpg" class="fuego"></img>
+	<img id="fuego5" src="multimedia/fuegos5.jpg" class="fuego"></img>
+</body>
+</html>
+

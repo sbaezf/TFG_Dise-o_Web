@@ -1,0 +1,25 @@
+.green {
+	width:100%;
+	height:60px;
+	background-color:lightgreen;
+}
+.red {
+	width:100%;
+	height:100%;
+	background-color:red;
+}
+.magenta {
+	width:100%;
+	height:60px;
+	background-color:magenta;
+}
+.orange {
+	width:100%;
+	height:150px;
+	background-color:orange;
+}
+.blue {
+	width:100%;
+	height:120px;
+	background-color:blue;
+}

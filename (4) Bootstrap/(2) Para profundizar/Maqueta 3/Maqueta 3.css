@@ -1,0 +1,58 @@
+div {
+	font-size: 20px;
+	font-weight: bold;
+}        
+.content {
+	width:100%;
+	padding: 10px;
+}
+#header {
+	font-style: italic;
+background-color:orange;
+	text-align:center;
+}
+.number {			
+	height: 100px;
+	font-size: 60px;
+	background-color: red;			
+}
+.footer {
+	background-color: yellow;
+	font-style: italic;
+	text-align: center;
+}
+
+/* Default, from xs */        
+#number2 {
+	background-color: lightblue;
+}        
+
+/* Tablets sm: >= 576px */
+@media (min-width: 576px) { 
+	#header {
+		background-color: lightblue;
+	}
+	#number1 {
+		height: 200px;
+	}
+	#number2 {
+		background-color: red;				
+		height: 200px;
+	}
+	#number3 {				
+		background-color: lightgreen;
+	}
+}
+
+/* Desktops md, lg, xl: 768px and up */
+@media (min-width: 768px) {
+	#header {
+		background-color: lightgreen;
+	}
+	
+	#number1, #number2, #number3 {				
+		background-color: red;
+		height: 300px;                
+	}      
+}
+    

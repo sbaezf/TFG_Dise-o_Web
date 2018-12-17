@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Ejemplo uso append </title>
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		//En este ejemplo se muestra el funcionamiento de los métodos append y css
+		//	append, que permite añadir elementos dinámicamente dentro de una etiqueta
+		//	css, que permite cambiar el estilo dinámicamente
+	
+		$(document).ready(function() {
+			$(".misdivs").on("mouseenter", function(e){
+				$(this).append("<p><b>Texto</b> insertado en los div</p>");
+				$(this).css({background: "blue"});
+			});
+			
+			$(".misdivs").on("mouseleave", function(e){   			
+				$(this).css({background: "#666", background: "grey"});
+			})
+		});
+	</script>
+	<style>
+		body { background: #666; }
+		.misdivs {background: #623; }
+	</style>
+</head>
+<body>
+	<p>Posicionáte encima de los dos divs de debajo para ver cómo se inserta texto automáticamente</p>
+	<p>Además, el estilo cambia al entrar y salir en los divs</p>
+	<div id="id1" class="misdivs">Mi div 1 </div>
+	<div id="id2" class="misdivs">Mi div 2</div>
+</body>
+</html>
+
+

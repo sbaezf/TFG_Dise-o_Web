@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+	<title>Ejemplo menú horizontal</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<style>
+		/* Modificando las viñetas y el margen y padding, los ítems tendrán apariencia de menú */
+		.hmenu{
+			list-style-type:none;
+			margin:0px;
+			padding:0px;
+		}
+		
+		/* Y con float left los elementos li se posicionarán horizontalmente */
+		.hmenu li{
+			float:left;
+			height:20px;
+			border-right:1px solid #fff;
+			text-align:center;
+		}
+		
+		.hmenu li a{
+			height:20px;
+			display:block;
+			width:122px;
+			padding-left:5px;
+			background:#009F00;
+			color:#fff;
+			text-decoration:none;
+		}
+		
+		.hmenu li a:hover{
+			background:#00B300;color:#fff;
+		}
+	</style>
+</head>
+<body>
+	<h3>Ejemplo de menú horizontal no desplegable</h3>
+	<ul class="hmenu">
+		<li><a href="#">Enlace 1</a></li>
+		<li><a href="#">Enlace 2</a></li>
+		<li><a href="#">Enlace 3</a></li>
+		<li><a href="#">Enlace 4</a></li>
+	</ul>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html><head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Anidamiento, agrupamiento y precedencia de selectores</title>
+
+  <!-- En esta página se estudian:
+	1. Los selectores adyacentes con el operador +
+	2. Los selectores con anidamientos y el operator >
+	3. La precedencia entre selectores
+  -->
+  
+  <style>
+	  i+b{color:red}
+	  .nivel1{color:green}
+	  .nivel2{color:blue}
+	  .lista1 > ul > .nivel2 {font-size:xsmall}
+	  ul > ul > li {font-size: x-small; color:red} /* Si este selector fuera .lista1 > ul > li, 
+													el color rojo se aplicaría a todos los li de segundo nivel */
+  </style>
+</head>
+<body>
+
+	<p class="rojo">
+		<i>Titulo</i>:<b> Anidamiento y agrupamiento </b> de selectores (el texto anterior sale en rojo por un selector adyacente)
+	</p>
+
+	<ul class="lista1">
+
+		<li class="nivel1"> Agrupamiento (aquí se aplica el selector a nivel de clase) </li>
+		<li class="nivel1"> Anidamiento (aquí se aplica el selector a nivel de clase) </li>
+		<ul>
+			<li class="nivel2"> Anidamiento de hijos (aquí se aplica el selector a nivel de clase, en caso de haber varios el último que se ha definido) </li>
+			<li class="nivel2"> Anidamiento de adyacentes (además, la fuente es más pequeña por el selector de agrupamiento)</li>
+			<li> Anidamiento comun (aquí sin clases pero se aplica selector de agrupamiento)</li>		
+		</ul>
+	</ul>
+
+</body>
+</html>

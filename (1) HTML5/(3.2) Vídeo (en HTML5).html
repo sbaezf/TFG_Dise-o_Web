@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- Esta página sirve para probar el funcionamiento de la etiqueta video de HTML5
+	 La idea es definir varios formatos por si alguno de ellos no funciona en algún navegador
+	 
+	 Además, el vídeo se ejecuta automáticamente y repetidamente
+-->
+	 
+<body>
+
+<video autoplay loop controls width="360" height="240"> <!-- La etiqueta autoplay no funciona en Google Chrome -->
+	<source src="videos/recetapollo.mp4" type="video/mp4">
+	<source src="videos/recetapollo.ogv" type="video/ogg; codecs='theora,  vorbis'">
+	<source src="videos/recetapollo.webm" type="video/webm">
+</video>
+
+</body>
+</html>
