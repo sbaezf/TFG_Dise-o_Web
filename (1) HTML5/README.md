@@ -47,25 +47,9 @@ https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(3.2)%20V%C3%ADdeo%20(en%20HTML5).h
 https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(3.3)%20V%C3%ADdeo%20(iframe).html
 
 
-(4.1) Animaciones (color de fondo).html			
-https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(4.1)%20Animaciones%20(color%20de%20fondo).html
+(4.1) Etiquetas semánticas (sin estilos).html	
+https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(4.1)%20Etiquetas%20sem%C3%A1nticas%20(sin%20estilos).html
 
 
-(4.2) Animaciones (combinar varios efectos).html
-https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(4.2)%20Animaciones%20(combinar%20varios%20efectos).html
-
-
-(4.3) Animaciones (fill-mode backwards).html	
-https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(4.3)%20Animaciones%20(fill-mode%20backwards).html
-
-
-(4.4) Animaciones (pelota rodando).html			
-https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(4.4)%20Animaciones%20(pelota%20rodando).html
-
-
-(5.1) Etiquetas semánticas (sin estilos).html	
-https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(5.1)%20Etiquetas%20sem%C3%A1nticas%20(sin%20estilos).html
-
-
-(5.2) Etiquetas semánticas (con estilos).html
-https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(5.2)%20Etiquetas%20sem%C3%A1nticas%20(con%20estilos).html
+(4.2) Etiquetas semánticas (con estilos).html
+https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(4.2)%20Etiquetas%20sem%C3%A1nticas%20(con%20estilos).html

@@ -91,17 +91,5 @@ https://sbaezf.github.io/TFG_Web/(2)%20CSS/(1)%20Para%20principiantes/(17.4)%20F
 https://sbaezf.github.io/TFG_Web/(2)%20CSS/(1)%20Para%20principiantes/(17.5)%20Flotar%20y%20posicionar%20(izquierda%20y%20superposici%C3%B3n).html
 
 
-(18) Menu-vertical.html
-https://sbaezf.github.io/TFG_Web/(2)%20CSS/(1)%20Para%20principiantes/(18)%20Menu-vertical.html
-
-
-(19) Menu-horizontal.html				
-https://sbaezf.github.io/TFG_Web/(2)%20CSS/(1)%20Para%20principiantes/(19)%20Menu-horizontal.html
-
-
-(20) Menu-desplegable.html		
-https://sbaezf.github.io/TFG_Web/(2)%20CSS/(1)%20Para%20principiantes/(20)%20Menu-desplegable.html
-
-
-(21) Orden aplicación estilos.html	
-https://sbaezf.github.io/TFG_Web/(2)%20CSS/(1)%20Para%20principiantes/(21)%20Orden%20aplicaci%C3%B3n%20estilos.html
+(18) Orden aplicación estilos.html	
+https://sbaezf.github.io/TFG_Web/(2)%20CSS/(1)%20Para%20principiantes/(18)%20Orden%20aplicaci%C3%B3n%20estilos.html
