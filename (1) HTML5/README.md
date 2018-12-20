@@ -51,5 +51,5 @@ https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(3.3)%20V%C3%ADdeo%20(iframe).html
 https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(4.1)%20Etiquetas%20sem%C3%A1nticas%20(sin%20estilos).html
 
 
-(4.2) Etiquetas semánticas (con estilos).html
-https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(4.2)%20Etiquetas%20sem%C3%A1nticas%20(con%20estilos).html
+(4.2) Etiquetas semánticas (con hoja estilos en carpeta css).html
+https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(4.2)%20Etiquetas%20sem%C3%A1nticas%20(con%20hoja%20estilos%20en%20carpeta%20css).html
