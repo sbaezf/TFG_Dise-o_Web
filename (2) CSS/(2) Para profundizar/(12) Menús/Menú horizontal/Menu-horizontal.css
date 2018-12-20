@@ -1,0 +1,28 @@
+/* Modificando las viñetas y el margen y padding, los ítems tendrán apariencia de menú */
+.hmenu{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+/* Y con float left los elementos li se posicionarán horizontalmente */
+.hmenu li{
+	float:left;
+	height:20px;
+	border-right:1px solid #fff;
+	text-align:center;
+}
+
+.hmenu li a{
+	height:20px;
+	display:block;
+	width:122px;
+	padding-left:5px;
+	background:#009F00;
+	color:#fff;
+	text-decoration:none;
+}
+
+.hmenu li a:hover{
+	background:#00B300;color:#fff;
+}

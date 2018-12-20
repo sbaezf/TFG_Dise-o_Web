@@ -1,0 +1,26 @@
+/* Modificando las viñetas y el margen y padding, los ítems tendrán apariencia de menú */
+.vmenu{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+.vmenu li{
+	height:20px;
+	margin-bottom:1px;
+}
+
+.vmenu li a{
+	height:20px;
+	padding-left:5px;
+	display:block;
+	width:122px;
+	background:#009F00;
+	color:#fff;
+	text-decoration:none;
+}
+
+.vmenu li a:hover{
+	background:#00B300;
+	color:#fff;
+}
