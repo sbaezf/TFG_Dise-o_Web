@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+	<meta charset="UTF-8">
 	<style type="text/css">
-		p:first-of-type{ /* El texto del primer párrafo (el del título) se centra */
+		p:first-of-type{ /* El texto de la primera etiqueta p se centra */
 			text-align: center;
 		}
 		
@@ -20,10 +20,10 @@
 			/* Ancho de 700px y centrado en el navegador */ 
 			width: 700px; 			
 			margin: auto; 
-			/* Overflow es necesario, ya que como float va aparte del flujo de posicionamiento, no tiene en cuenta el tamaño del contenido para
+			/* Overflow es necesario, ya que como float va aparte del flujo de posicionamiento, no tiene en cuenta el contenido para
 			calcular el alto del contenedor */
 			overflow: auto;			
-			/* Borde sólido y fondo gris claro */ 
+			/* Borde solid y fondo gris claro */ 
 			border: solid 1px black; 
 			background-color: #CCCCCC;			
 		} 
@@ -59,7 +59,7 @@
 	<title>Flotar</title>
 </head>
 <body>
-	<p>Caja 1 tiene float: left y Caja 2 tiene float: right. Como Caja 3 tiene clear: both, se evita la superposición</p>
+	<p>Caja 1 tiene float: left y Caja 2 tiene float: right. Como Caja 3 tiene clear: both, se evita que se superpongan</p>
 	<div id="contenido">
 		<div id="caja1" class="texto_caja"> Caja 1 </div>
 		<div id="caja2" class="texto_caja"> Caja 2 </div>

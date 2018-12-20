@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+	<meta charset="UTF-8">
 	<style type="text/css">
-		.descripcion{ /* El texto del primer párrafo (el del título) se centra */
+		.descripcion{ /* El texto de la primera etiqueta p se centra */
 			text-align: center;
 			margin: 0px;
 		}
@@ -25,10 +25,10 @@
 			/* Ancho de 700px y centrado en el navegador */ 
 			width: 700px; 			
 			margin: auto; 
-			/* Overflow es necesario, ya que como float va aparte del flujo de posicionamiento, no tiene en cuenta el tamaño del contenido para
+			/* Overflow es necesario, ya que como float va aparte del flujo de posicionamiento, no tiene en cuenta el contenido para
 			calcular el alto del contenedor */
 			overflow: auto;			
-			/* Borde sólido y fondo gris claro */ 
+			/* Borde solid y fondo gris claro */ 
 			border: solid 1px black; 
 			background-color: #CCCCCC;			
 		} 
@@ -65,9 +65,9 @@
 	<title>Flotar</title>
 </head>
 <body>
-	<p class="descripcion">Invertimos el orden de las cajas en el código</p>
+	<p class="descripcion">Invertimos el orden de las cajas en el HTML</p>
 	<p class="descripcion">Caja 2 tiene float: right y Caja 3 tiene float: left</p>
-	<p class="descripcion">Caja 1 tiene float: right y clear: right y de esta forma se posiciona justo debajo del nivel al que está situado Caja 3</p>
+	<p class="descripcion">Caja 1 tiene float: right y clear: right y de esta forma se posiciona justo debajo del nivel al que se encuentra la Caja 3</p>
 	<div id="contenido">
 		<div id="caja3" class="texto_caja"> Caja 3 </div>
 		<div id="caja2" class="texto_caja"> Caja 2 </div>
