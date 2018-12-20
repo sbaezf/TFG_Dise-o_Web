@@ -6,3 +6,5 @@ Recopilación de páginas para el estudio de las hojas de estilo CSS. Se ha divi
 **2. Para profundizar**
 
 **3. Flexbox**
+
+**4. Animaciones**
