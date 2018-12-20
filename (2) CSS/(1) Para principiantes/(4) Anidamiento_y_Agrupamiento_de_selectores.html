@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Anidamiento, agrupamiento y precedencia de selectores</title>
+<html lang="es">
+	<head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+	  <title>Anidamiento, agrupamiento y precedencia de selectores</title>
 
-  <!-- En esta página se estudian:
-	1. Los selectores adyacentes con el operador +
-	2. Los selectores con anidamientos y el operator >
-	3. La precedencia entre selectores
-  -->
-  
-  <style>
-	  i+b{color:red}
-	  .nivel1{color:green}
-	  .nivel2{color:blue}
-	  .lista1 > ul > .nivel2 {font-size:xsmall}
-	  ul > ul > li {font-size: x-small; color:red} /* Si este selector fuera .lista1 > ul > li, 
-													el color rojo se aplicaría a todos los li de segundo nivel */
-  </style>
-</head>
+	  <!-- En esta página se estudian:
+		1. Los selectores adyacentes con el operador +
+		2. Los selectores con anidamientos y el operator >
+		3. La precedencia entre selectores
+	  -->
+	  
+	  <style>
+		  i+b{color:red}
+		  .nivel1{color:green}
+		  .nivel2{color:blue}
+		  .lista1 > ul > .nivel2 {font-size:xsmall}
+		  ul > ul > li {font-size: x-small; color:red} /* Si este selector fuera .lista1 > ul > li, 
+														el color rojo se aplicaría a todos los li de segundo nivel */
+	  </style>
+	</head>
 <body>
 
 	<p class="rojo">
