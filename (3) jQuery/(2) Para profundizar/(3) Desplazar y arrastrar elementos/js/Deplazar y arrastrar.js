@@ -54,7 +54,8 @@ $(document).ready(function() {
 		}
 	})
 	
-	//Otra opción es con droppable pero no se hace bien del todo
+	//Otra opción es comprobar si el elemento está dentro con droppable,
+	//pero no se hace bien del todo ya que en cuanto toca un borde se considera que está en el contenedor
 	
 	/*$(".block").draggable();
 	

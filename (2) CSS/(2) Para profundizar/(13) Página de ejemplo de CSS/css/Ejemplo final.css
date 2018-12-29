@@ -11,6 +11,7 @@
 	margin-top: 0.5em;
 }
 
+/* Imagen de fondo en el centro */
 #cabecera{
 	background-repeat: no-repeat;
 	background-image: url("../img/logo.png");
@@ -45,6 +46,7 @@ div#auxiliar{
 	margin-top: 0.5rem;
 }
 
+/* Barra lateral y contenido ocupan 19%, un margen de 1% de separación y 80% para el contenido */
 #izquierda{
 	border: 1px solid black;
 	float: left;
@@ -61,6 +63,7 @@ div#auxiliar{
 	border: 1px solid black;
 }
 
+/* Dentro del contenido cada caja ocupa el 50%. No desborda el padding al tener box-sizing con el valor border-box */
 .sub_container{
 	width: 50%;
 	float: left;
@@ -87,6 +90,7 @@ div#auxiliar{
 	float: right;
 }
 
+/* Se incluye una media-query para eliminar la barra lateral en dispositivos menores de 600px */
 @media all and (max-width: 600px) {
     #izquierda {
         display: none;

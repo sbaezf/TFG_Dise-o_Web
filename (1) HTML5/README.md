@@ -5,6 +5,8 @@ La mayoría de páginas incluyen los estilos en la etiqueta `<style>`
 
 Esta es una práctica poco recomendable, pero válida en este caso, ya que facilita el estudio sin necesidad de abrir **HTML** y **CSS** por separado
 
+Cada una de las páginas está numerada e incluye un título descriptivo de las etiquetas de **HTML5** que se estudian en la misma
+
 Listado de páginas con enlace para visualizar en el navegador:
 
 (1.1) Imágenes (atributo picture).html

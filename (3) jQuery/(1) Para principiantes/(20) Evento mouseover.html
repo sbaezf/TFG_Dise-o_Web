@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		//En este ejemplo se prueba la funcionalidad de los eventos mouseenter y mouseover que se activan al posicionarse
+		//en un elemento, con las diferencias que se explican a continuación
+		//	mouseenter: Solo se activa al entrar en un elemento, aunque nos movamos por el mismo no se vuelve a activar
+		//	mouseover: Se activa al posicionarse en un elemento. Si ocurre como en este ejemplo que hay un div dentro
+		//	de aquel que se aplica el evento, cuando salimos del div interno al externo se vuelve a lanzar el evento
+		
+		$(document).ready(function() {
+			var cuenta_enter=0;
+			var cuenta_over=0;
+			$("div.first").mouseenter(function() {
+				 $("p:first").text("con_mouseEnter "+ cuenta_enter++);
+			});
+			$("div.first").mouseover(function() {
+				 $("p:last").text("con_mouseOver "+ cuenta_over++);				
+			});
+		
+	   });
+	</script>
 	<style>
 		div.first { 
 			position:relative;
@@ -23,26 +43,6 @@
 			background:#33CC99;
 		}
 	</style>
-	<script type="text/javascript" src="jquery-3.3.1.js"></script>
-	<script type="text/javascript">
-		//En este ejemplo se prueba la funcionalidad de los eventos mouseenter y mouseover que se activan al posicionarse
-		//en un elemento, con las diferencias que se explican a continuación
-		//	mouseenter: Solo se activa al entrar en un elemento, aunque nos movamos por el mismo no se vuelve a activar
-		//	mouseover: Se activa al posicionarse en un elemento. Si ocurre como en este ejemplo que hay un div dentro
-		//	de aquel que se aplica el evento, cuando salimos del div interno al externo se vuelve a lanzar el evento
-		
-		$(document).ready(function() {
-			var cuenta_enter=0;
-			var cuenta_over=0;
-			$("div.first").mouseenter(function() {
-				 $("p:first").text("con_mouseEnter "+ cuenta_enter++);
-			});
-			$("div.first").mouseover(function() {
-				 $("p:last").text("con_mouseOver "+ cuenta_over++);				
-			});
-		
-	   });
-	</script>
 
 </head>
 <body>

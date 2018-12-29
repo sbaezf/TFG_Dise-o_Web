@@ -9,7 +9,11 @@
 </head>
 <body>
 	<!-- Esta página ejecuta una secuencia de efectos que van mostrando una serie de párrafos 
-		 Sin hacemos click en alguno de ellos, la secuencia vuelve al comienzo -->
+		 Si hacemos click en alguno de ellos, la secuencia vuelve al comienzo 
+		 
+		 Con fadeIn y delay se van mostrando los párrafos con el retardo del propio delay
+		 Si hacemos click de nuevo, para reiniciar la animación hay que finalizar la actual
+		 con finish() y ocultando de nuevo los párrafos con hide()-->
 
 	<h3> Pincha en cualquiera de los textos para volver a ejecutar la animación </h3>
 	<div class="primero d-none">

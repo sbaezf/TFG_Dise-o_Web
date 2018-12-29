@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<!-- El objetivo de este ejemplo es probar el funcionamiento de:
+		1. Las propiedades de CSS para bordes, paddin y margn
+		2. La diferencia entre padding y margin
+		3. Diferentes estilos de bordes, entre ellos el redondeado con border-radius
+		4. De paso se aprovecha para practicar la diferencia entre los selectores de id y agrupamiento
+	-->
+	<style>
+		div#contenedor { 
+			margin: 100px 100px 100px 100px ; 
+			border-style: inset; 
+			border-color: blue; /* Color del borde azul */ 
+			border-radius: 15px; /* Borde redondeado de radio 15px */ 
+			border-width: thick; /* Un borde grueso */ 
+			padding: 15px 15px 15px 15px; 
+		} 
+		#contenedor div { 
+			margin-top:15px; 
+			margin-right:15px; 
+			margin-bottom: 15px; 
+			margin-left: 15px; 
+			padding: 10px; 
+			border-top : 3px dotted red ; /* Estilo, tamaño y color incluidos en el mismo atributo */ 
+			border-right : 2px solid blue ; 
+			border-bottom : 3px double green ; 
+			border-left : 3px groove red ; 
+		} 
+	</style>
+
+	<title>Atributos del modelo de cajas y bordes redondeados</title>  
+</head> 
+<body> 
+	<div id="contenedor">
+		<div>Texto con font-size por defecto</div>
+	</div>
+</body> 
+
+</html>

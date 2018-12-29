@@ -6,15 +6,15 @@
 
 	<!-- Esta página sirve para probar el funcionamiento de la etiqueta picture de HTML5
 		 Esta etiqueta permite cambiar la URL de una imagen en función de varios parámetros
-		 En este caso, se prueba el funcionamiento de mostrar una imagen diferente según la resolución -->
+		 En este caso, se prueba la funcionalidad de mostrar una imagen diferente según la resolución -->
 	
 </head>
 <body>
 
 	<picture>
-		<source srcset="images/img_smallflower.jpg" media="(max-width: 400px)">
-		<source srcset="images/img_flowers.jpg">
-		<img src="images/img_flowers.jpg" alt="Flowers" style="width:auto;">
+		<source srcset="img/img_smallflower.jpg" media="(max-width: 400px)">
+		<source srcset="img/img_flowers.jpg">
+		<img src="img/img_flowers.jpg" alt="Flowers" style="width:auto;">
 	</picture>
 
 	<p>Redimensiona el navegador: la imagen cambia cuando el ancho sea 400px.</p>

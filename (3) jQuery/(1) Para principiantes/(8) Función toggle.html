@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<title>Ejemplo de animación con la versión actual de toggle()</title>
+
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+	
+		//Este ejemplo muestra el funcionamiento de la función toggle, que alterna la ejecución de las funciones show y hide
+		//Es decir, si el elemento al que se aplica la función está oculto se muestra y viceversa
+	
+		$(document).ready(function() {
+			$("#toggler").click(function () {
+				$("span").toggle(500);
+			});
+		});
+
+	</script>
+	<style type="text/css">
+		body { background: #666; }
+		span { background:#def3ca; padding:3px; float:left; }
+	</style>
+
+</head>
+<body>
+	<button id="toggler">Ocultar/Mostrar</button>
+	<div>
+		<span>Había</span> 
+		<span>una </span> 
+		<span>vez</span> 
+		<span>un</span> 
+		<span>desarrollador </span> 
+		<span>Web</span> 
+		<span>...</span>
+	</div>
+</body>
+</html>
+

@@ -4,12 +4,14 @@
   <meta charset="utf-8">
   <title>Slider</title> 
   <link rel="stylesheet" type="text/css" href="css/slider.css" />
-  <script type="text/javascript" src="javascript/jquery-3.3.1.js" ></script>
-  <script type="text/javascript" src="javascript/galeria.js" ></script>
-  <script type="text/javascript" src="javascript/funciones.js" ></script>
+  <script type="text/javascript" src="js/jquery-3.3.1.js" ></script>
+  <script type="text/javascript" src="js/funciones.js" ></script>
   
   <!-- Este componente es un carrusel de imágenes que van cambiándose cada N segundos
 		 También se puede cambiar de imagen manualmente con los botones de debajo
+		 
+		 Se emplean principalmente las funciones show y hide y stop para detener la animación actual
+		 en caso de se cambie manualmente a otra imagen
 	-->
   
   <script>	
@@ -29,11 +31,11 @@
     <ul id="selector"></ul>
   </nav>
   <section class="caja">
-    <img id="foto1" alt="" src="images/1.jpg"/>
-	<img id="foto2" alt="" src="images/2.jpg"/>
-	<img id="foto3" alt="" src="images/3.jpg"/>
-	<img id="foto4" alt="" src="images/4.jpg"/>
-	<img id="foto5" alt="" src="images/5.jpg"/>
+    <img id="foto1" alt="" src="img/1.jpg"/>
+	<img id="foto2" alt="" src="img/2.jpg"/>
+	<img id="foto3" alt="" src="img/3.jpg"/>
+	<img id="foto4" alt="" src="img/4.jpg"/>
+	<img id="foto5" alt="" src="img/5.jpg"/>
   </section>
   </div>
 </body>

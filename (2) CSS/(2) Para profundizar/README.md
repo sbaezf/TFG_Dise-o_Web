@@ -1,11 +1,11 @@
 ﻿# CARPETA CSS - Para profundizar
 Páginas web para profundizar en **CSS**
 
-Cada página se encuentra en una carpeta separada, cuyo nombre indica un resumen de los aspectos que se estudian
+Cada página se encuentra en una carpeta numerada y cuyo nombre indica un resumen de los aspectos que se estudian
 
-No obstante, en cada página se añade un texto con comentarios en la cabecera para explicar más en detalle qué aspectos se ponen en práctica
+No obstante, en cada página se añade un texto con comentarios en la cabecera para explicar más en detalle las propiedades de **CSS** involucradas
 
-Listado al enlace de la página que se implementa en cada carpeta:
+Listado al enlace de las páginas que se implementan en las carpetas de esta sección:
 
 Carpeta `(1) Estilos de textos`. Página: https://sbaezf.github.io/TFG_Web/(2)%20CSS/(2)%20Para%20profundizar/(1)%20Estilos%20de%20textos/texto1.html
 
@@ -36,4 +36,3 @@ Carpeta `(12) Menús`. Página de menú horizontal: https://sbaezf.github.io/TFG
 Carpeta `(12) Menús`. Página de menú desplegable: https://sbaezf.github.io/TFG_Web/(2)%20CSS/(2)%20Para%20profundizar/(12)%20Men%C3%BAs/Men%C3%BA%20desplegable/Menu-desplegable.html
 
 Carpeta `(13) Página de ejemplo de CSS`. Página: https://sbaezf.github.io/TFG_Web/(2)%20CSS/(2)%20Para%20profundizar/(13)%20P%C3%A1gina%20de%20ejemplo%20de%20CSS/Ejemplo%20final.html
-
