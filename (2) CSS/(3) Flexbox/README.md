@@ -41,7 +41,7 @@ https://sbaezf.github.io/TFG_Web/(2)%20CSS/(3)%20Flexbox/(10)%20Flex%20basis.htm
 https://sbaezf.github.io/TFG_Web/(2)%20CSS/(3)%20Flexbox/(11)%20Flex%20order.html
 
 Carpeta `(12) Página de ejemplo Flexbox`. Versión no responsiva
-https://sbaezf.github.io/TFG_Web/(2)%20CSS/(3)%20Flexbox/(12)%20P%C3%A1gina%20de%20ejemplo/No%20responsive/Flex%20sin%20responsive.html
+https://sbaezf.github.io/TFG_Web/(2)%20CSS/(3)%20Flexbox/(12)%20P%C3%A1gina%20de%20ejemplo%20Flexbox/No%20responsive/Flex%20sin%20responsive.html
 
 Carpeta `(12) Página de ejemplo Flexbox`. Versión responsiva
-https://sbaezf.github.io/TFG_Web/(2)%20CSS/(3)%20Flexbox/(12)%20P%C3%A1gina%20de%20ejemplo/Responsive/Flex%20con%20responsive.html
+https://sbaezf.github.io/TFG_Web/(2)%20CSS/(3)%20Flexbox/(12)%20P%C3%A1gina%20de%20ejemplo%20Flexbox/Responsive/Flex%20con%20responsive.html
