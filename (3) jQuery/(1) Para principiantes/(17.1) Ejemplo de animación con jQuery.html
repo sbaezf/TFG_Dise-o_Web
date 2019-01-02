@@ -1,25 +1,25 @@
-<!DOCTYPE html>
+Ôªø<!DOCTYPE html>
 
 <html>
 <head>
-	<title>Ejemplo de animaciÛn con animate()</title>
+	<title>Animaci√≥n con jQuery 1</title>
 
 	<script type="text/javascript" src="jquery-3.3.1.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
-			//Este ejemplo sirve para probar el funcionamiento de la funciÛn animate
-			//Esta funciÛn permite aÒadir animaciones mediante el cambio de valor de aquellos atributos de CSS numÈricos
-			//Por ejemplo, no se podrÌa emplear con background-color
+			//Este ejemplo sirve para probar el funcionamiento de la funci√≥n animate
+			//Esta funci√≥n permite a√±adir animaciones mediante el cambio de valor de aquellos atributos de CSS num√©ricos
+			//Por ejemplo, no se podr√≠a emplear con background-color
 			//En este caso se utiliza left, width, opacity, margin-left, font-size, border-width
-			//Importante echar un vistazo a la notaciÛn de los atributos que tienen un guiÛn como los ya citados
+			//Importante echar un vistazo a la notaci√≥n de los atributos que tienen un gui√≥n como los ya citados
 		
-			$("#right").click(function(){ //AnimaciÛn del botÛn derecho.
+			$("#right").click(function(){ //Animaci√≥n del bot√≥n derecho.
 				$(".block").animate({"left": "+=50px"}, "slow");
 			});
-			$("#left").click(function(){//AnimaciÛn del botÛn izquierdo.
+			$("#left").click(function(){//Animaci√≥n del bot√≥n izquierdo.
 				$(".block").animate({"left": "-=50px"}, "slow");
 			});
-			$("div").click(function(){ //al hacer click en div, cambia de tamaÒo
+			$("div").click(function(){ //al hacer click en div, cambia de tama√±o
 				$("div").animate({
 					width: "70%",
 					opacity: 0.5,
@@ -45,7 +45,7 @@
 <body>
 	<button id="left">&laquo;</button> 
     <button id="right">&raquo;</button>
-	<div class="block">Pincha AQUÕ tambiÈn</div>
+	<div class="block">Pincha AQU√ç tambi√©n</div>
 </body>
 </html>
 

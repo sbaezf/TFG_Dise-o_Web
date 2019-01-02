@@ -67,8 +67,8 @@ https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(18)%20
 (19) Evento hover.html			
 https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(19)%20Evento%20hover.html			
 			
-(20) Evento mouseover.html		
-https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(20)%20Evento%20mouseover.html
+(20) Eventos mouseover y mouseenter.html		
+https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(20)%20Eventos%20mouseover%20y%20mouseenter.html
 			
 (21) Eventos scroll y resize.html
 https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(21)%20Eventos%20scroll%20y%20resize.html

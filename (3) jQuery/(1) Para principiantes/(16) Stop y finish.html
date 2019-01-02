@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+Ôªø<!DOCTYPE html>
 
 <html>
 <head>
-	<title>Comparativa de mÈtodos stop() y finish()</title>
+	<title>Comparativa de m√©todos stop() y finish()</title>
 	<script type="text/javascript" src="jquery-3.3.1.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
 			//En este ejemplo se prueba el funcionamiento de las funciones stop y finish, cuyas diferencias son las siguientes
-			//stop(false, false) o sin par·metros, detiene solo la animaciÛn actual y la deja en el estado que se encuentra cuando se ha parado
-			//stop(true, false) detiene todas las animaciones que se est·n ejecutando o est·n esperando y las deja en el estado actual
-			//stop(true, true) detiene todas las animaciones que se est·n ejecutando o en cola de espera y deja las que se ejecutan en el estado final
-			//stop(false, true) detiene la animaciÛn actual y la deja en el estado final
-			//finish detiene todas las animaciones que se est·n ejecutando o en cola de espera y deja todas en el estado final
+			//stop(false, false) o sin par√°metros, detiene solo la animaci√≥n actual y la deja en el estado que se encuentra cuando se ha parado
+			//stop(true, false) detiene todas las animaciones que se est√°n ejecutando o est√°n esperando y las deja en el estado actual
+			//stop(true, true) detiene todas las animaciones que se est√°n ejecutando o en cola de espera y deja las que se ejecutan en el estado final
+			//stop(false, true) detiene la animaci√≥n actual y la deja en el estado final
+			//finish detiene todas las animaciones que se est√°n ejecutando o en cola de espera y deja todas en el estado final
 		
 			$("div").click(function() {			
 			   $("div.primero").animate({"left": "+=50px"}, 10000);
@@ -19,7 +19,7 @@
 			   $("div.segundo").animate({"top": "+=50px"}, 10000);		  
 			});
 			
-			$("#stop").click(function() {	//Probar a cambiar los par·metros		
+			$("#stop").click(function() {	//Probar a cambiar los par√°metros		
 			   $("div").stop(true, true);
 			});
 			
@@ -43,9 +43,9 @@
 <body>
 	<h3> Pincha en cualquiera de los textos </h3>
 	<div class="primero"><p>Antes </p> </div>
-	<div class="segundo"><p>DespuÈs  </p> </div>
+	<div class="segundo"><p>Despu√©s  </p> </div>
 	<div class="primero"><p>Antes </p> </div>
-	<div class="segundo"><p>DespuÈs  </p> </div>
+	<div class="segundo"><p>Despu√©s  </p> </div>
 	<button id="stop">Parar con stop</button>
 	<button id="finish">Parar con finish</button>
 </body>
