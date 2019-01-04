@@ -5,7 +5,7 @@ Cada página se encuentra en una subcarpeta con todos los archivos necesarios pa
 
 Merecen especial atención las carpetas con las maquetas, donde se puede ver el potencial de este Framework
 
-Las páginas están preparadas para funcionar con la versión de **Bootstrap 4**, cuya carpeta debe estar situada en el mismo directorio que dichas páginas
+Las páginas están preparadas para funcionar con la versión de **Bootstrap 4**, cuya carpeta debe estar situada a la misma altura que las subcarpetas con las páginas
 
 Listado al enlace de las páginas que se implementan en las carpetas de esta sección:
 
