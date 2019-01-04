@@ -1,4 +1,4 @@
-﻿# CARPETA jQuey
+﻿# CARPETA jQuery - Para principiantes
 Páginas web con métodos básicos de jQuery asociados al diseño o efectos y animaciones
 
 Las páginas incluyen el código de JavaScript en la etiqueta `<script>` dentro de cada página de HTML
