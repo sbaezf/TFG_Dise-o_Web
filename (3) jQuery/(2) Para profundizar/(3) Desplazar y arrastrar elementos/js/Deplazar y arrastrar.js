@@ -1,5 +1,5 @@
-$(document).ready(function() {
-	//FunciÛn que permite comprobar si el cuadrado se encuentra dentro de las coordenadas del cuadrado central
+Ôªø$(document).ready(function() {
+	//Funci√≥n que permite comprobar si el cuadrado se encuentra dentro de las coordenadas del cuadrado central
 	var comprobar = function (){
 		var x1 = $(".block").offset().left;
 		var y1 = $(".block").offset().top;	
@@ -10,7 +10,7 @@ $(document).ready(function() {
 		var ancho = $(".block").outerWidth();
 		var alto = $(".block").outerHeight();
 		
-		//Las coordenadas lÌmite ser·n: las del cuadrado m·s su ancho o altos
+		//Las coordenadas l√≠mite ser√°n: las del cuadrado m√°s su ancho o altos
 		var limiteX = x2 + $(".cuadrado").outerWidth();
 		var limiteY = y2 + $(".cuadrado").outerHeight();
 		
@@ -23,19 +23,19 @@ $(document).ready(function() {
 		}	
 	};	
 
-	$("#right").click(function(){ //AnimaciÛn del botÛn derecho.			
+	$("#right").click(function(){ //Animaci√≥n del bot√≥n derecho.			
 		$(".block").animate({"left": "+=" + $("#mov").val() + "px"}, "slow", comprobar);						
 	});
-	$("#left").click(function(){//AnimaciÛn del botÛn izquierdo.
+	$("#left").click(function(){//Animaci√≥n del bot√≥n izquierdo.
 		$(".block").animate({"left": "-=" + $("#mov").val() + "px"}, "slow", comprobar);
 	});
-	$("#top").click(function(){ //AnimaciÛn del botÛn derecho.
+	$("#top").click(function(){ //Animaci√≥n del bot√≥n derecho.
 		$(".block").animate({"top": "-=" + $("#mov").val() + "px"}, "slow", comprobar);
 	});
-	$("#bottom").click(function(){//AnimaciÛn del botÛn izquierdo.
+	$("#bottom").click(function(){//Animaci√≥n del bot√≥n izquierdo.
 		$(".block").animate({"top": "+=" + $("#mov").val() + "px"}, "slow", comprobar);
 	});
-	$("div").click(function(){ //al hacer click en div, cambia de tamaÒo
+	$("div").click(function(){ //al hacer click en div, cambia de tama√±o
 	  $("div").animate({
 		width: "70%",
 		opacity: 0.5,
@@ -54,8 +54,8 @@ $(document).ready(function() {
 		}
 	})
 	
-	//Otra opciÛn es comprobar si el elemento est· dentro con droppable,
-	//pero no se hace bien del todo ya que en cuanto toca un borde se considera que est· en el contenedor
+	//Otra opci√≥n es comprobar si el elemento est√° dentro con droppable,
+	//pero no se hace bien del todo ya que en cuanto toca un borde se considera que est√° en el contenedor
 	
 	/*$(".block").draggable();
 	

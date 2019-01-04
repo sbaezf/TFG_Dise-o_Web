@@ -11,7 +11,7 @@ $(document).ready(function () {
 		$( ".accordion" ).accordion("option", "active", false );
 	});
 	
-	//Se ha logrado el objetivo del enunciado porque creamos varios acordeones por separado
+	//Se ha logrado el objetivo porque creamos varios acordeones por separado
 	//Por tanto, solo podemos seleccionar la opción 0 de cada uno
 	//Dejo comentado el código para probar a añadir algún elemento a alguno de los acordeones y cambiarle la clase por "accordion1"
 	//De esta forma, probamos que en este caso si que se seleccionan las opciones 0,1...

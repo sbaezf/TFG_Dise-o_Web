@@ -1,16 +1,16 @@
-$(document).ready(function() {
+ï»¿$(document).ready(function() {
 	//Contador de imagen
 	var contador = 1;
 	
 	//Contador ejecuciones			
 	var textoEstandar = "Voy a aprobar DIW"
 	
-	//Número de segundos inicial
+	//NÃºmero de segundos inicial
 	var segundos = 0;
 
-	//Función que permite generar la posición horizontal
+	//FunciÃ³n que permite generar la posiciÃ³n horizontal
 	function calcularAncho(){
-		//Hay que tener en cuenta el ancho de las imágenes y 
+		//Hay que tener en cuenta el ancho de las imÃ¡genes y 
 		//del componente que genera los fuegos artificiales			
 		var anchoImagen = $(".fuego").width();			
 		
@@ -21,9 +21,9 @@ $(document).ready(function() {
 		return left;
 	}
 	
-	//Función que permite generar la posición vertical
+	//FunciÃ³n que permite generar la posiciÃ³n vertical
 	function calcularAlto(){
-		//Hay que tener en cuenta el alto de las imágenes
+		//Hay que tener en cuenta el alto de las imÃ¡genes
 		var altoImagen = $(".fuego").height();
 		var altoDetonador = $("#bloque1").height();				
 		var alto = window.innerHeight - altoImagen - altoDetonador;
@@ -37,7 +37,7 @@ $(document).ready(function() {
 		var left = calcularAncho();
 		var top = calcularAlto();
 	
-		//Si ya se han mostrado las cinco imágenes, ocultarlas y volver a generar otra					
+		//Si ya se han mostrado las cinco imÃ¡genes, ocultarlas y volver a generar otra					
 		if (contador > 5){
 			$(".fuego").fadeOut(segundos);
 			contador = 1;
@@ -47,19 +47,19 @@ $(document).ready(function() {
 		$("#fuego" + contador).css("top", top + "px");
 		$("#fuego" + contador).css("z-index", contador);
 		
-		//Función callback para que se muestre el detonador cuando hayamos terminado
+		//FunciÃ³n callback para que se muestre el detonador cuando hayamos terminado
 		$("#fuego" + contador).fadeIn(segundos);
 		
 		contador++;
 	});
 	
-	//Aumenta tiempo de ejecución de animaciones y tamaño de cabecera
+	//Aumenta tiempo de ejecuciÃ³n de animaciones y tamaÃ±o de cabecera
 	$("#aumentar").click(function(){
 		segundos += 1000;
 		$("#textoCabecera").animate({fontSize: "+=1px"}, segundos);				
 	});
 	
-	//Disminuye tiempo de ejecución de animaciones y tamaño de cabecera
+	//Disminuye tiempo de ejecuciÃ³n de animaciones y tamaÃ±o de cabecera
 	$("#disminuir").click(function(){
 		if (segundos > 0){
 			segundos -= 1000;

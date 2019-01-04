@@ -1,9 +1,9 @@
-span { 
+Ôªøspan { 
 	cursor:pointer;
 }
 
-/* Esta clase se aÒade din·micamente al posicionarnos encima
-Se podrÌa hacer con el selector :hover pero asÌ se practica su uso con jQuery */									
+/* Esta clase se a√±ade din√°micamente al posicionarnos encima
+Se podr√≠a hacer con el selector :hover pero as√≠ se practica su uso con jQuery */									
 span.hilite { 
 	background:yellow; 
 } 

@@ -1,4 +1,4 @@
-	var anterior = -1; 
+Ôªø	var anterior = -1; 
 	
 	function seleccionar(n){
       var siguiente;
@@ -7,19 +7,19 @@
 	        
       $("nav a").removeClass("on off");//Eliminamos todas las clases on y off
             
-	  //Si no es la primera vez, cada vez que entramos en esta funciÛn hay que acabar la animaciÛn anterior y ocultar la imagen		
+	  //Si no es la primera vez, cada vez que entramos en esta funci√≥n hay que acabar la animaci√≥n anterior y ocultar la imagen		
 	  if (anterior != -1){
 		$("#foto" + anterior).stop(true, true);
 		$("#foto" + anterior).hide(0);		
 	  }
 	  
-	  //ENLACE DE INTER…S
-      //https://api.jquery.com/addclass/                        -> MÈtodo addClass
-      //https://learn.jquery.com/using-jquery-core/iterating/   -> MÈtodos con y sin iteraciÛn
-      //addClass lleva implÌcita una iteraciÛn sobre todos los elementos que cumpla el selector que devuelve el Ìndice
-      //Podemos decir que aÒadimos una clase o que ejecutamos una funciÛn que se ejecutar· sobre cada uno de los elementos que coincidan con el selector
-      //Esta funciÛn devuelve el n˙mero de iteraciÛn en el primer par·metro y si lo quisieramos la clase a la que pertenece en el segundo
-      //En este caso sÛlo recogemos el n˙mero de iteraciÛn y si esta coincide con la seleccionada le aÒadimos on...en caso contrario off	  
+	  //ENLACE DE INTER√âS
+      //https://api.jquery.com/addclass/                        -> M√©todo addClass
+      //https://learn.jquery.com/using-jquery-core/iterating/   -> M√©todos con y sin iteraci√≥n
+      //addClass lleva impl√≠cita una iteraci√≥n sobre todos los elementos que cumpla el selector que devuelve el √≠ndice
+      //Podemos decir que a√±adimos una clase o que ejecutamos una funci√≥n que se ejecutar√° sobre cada uno de los elementos que coincidan con el selector
+      //Esta funci√≥n devuelve el n√∫mero de iteraci√≥n en el primer par√°metro y si lo quisieramos la clase a la que pertenece en el segundo
+      //En este caso s√≥lo recogemos el n√∫mero de iteraci√≥n y si esta coincide con la seleccionada le a√±adimos on...en caso contrario off	  
 	  $("nav a").addClass(function(j){
                     return(j===(n-1))?"on":"off";
                     });
@@ -51,7 +51,7 @@
 	  
       selector.html("");
       for (i=1;i<=longitud;i++){
-        selector.append("<li><a onClick='seleccionar("+i+");'></a></li>"); //Si pulsan el botÛn seleccionamos la imagen correspondiente
+        selector.append("<li><a onClick='seleccionar("+i+");'></a></li>"); //Si pulsan el bot√≥n seleccionamos la imagen correspondiente
         }//for
     }//generar selector
 	

@@ -1,4 +1,4 @@
-$(document).ready(function() {
+ï»¿$(document).ready(function() {
 
 	$("span").hover(
 		function () { $(this).addClass("hilite"); }, 
@@ -6,8 +6,8 @@ $(document).ready(function() {
 	); 
 		
 	 $("span").click(function () {
-		$(this).fadeOut(1000, function () { //Esta función desvanece el elemento que se ha clickado
-			$("div").text("'" + $(this).text() + "' ¡Se ha desvanecido! Haz click en el texto en rojo para mostrar de nuevo los adjetivos adivinados");
+		$(this).fadeOut(1000, function () { //Esta funciÃ³n desvanece el elemento que se ha clickado
+			$("div").text("'" + $(this).text() + "' Â¡Se ha desvanecido! Haz click en el texto en rojo para mostrar de nuevo los adjetivos adivinados");
 			$(this).fadeOut();
 		}); //function del fade
 	}); //function del click			
