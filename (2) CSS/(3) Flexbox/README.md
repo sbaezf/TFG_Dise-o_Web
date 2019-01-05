@@ -1,9 +1,9 @@
 ﻿# CSS - Flexbox
-Páginas web con propiedades básicas asociadas a `display: flex`
+Páginas web con propiedades básicas asociadas a `display: flex`.
 
-Las páginas que se guardan directamente en la carpeta incluyen los estilos en la etiqueta `<style>`
+Las páginas que se guardan directamente en la carpeta incluyen los estilos en la etiqueta `<style>`. Esta es una práctica poco recomendable, pero en este caso facilita el estudio sin necesidad de abrir **HTML** y **CSS** por separado.
 
-Esta es una práctica poco recomendable, pero en este caso facilita el estudio sin necesidad de abrir **HTML** y **CSS** por separado
+Aquellas páginas de contenido más amplio se guardan en subcarpetas, con las hojas de estilos en archivos separados.
 
 Listado de páginas con enlace (y carpeta según el caso) para visualizar en el navegador:
 

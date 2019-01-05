@@ -1,9 +1,9 @@
 ﻿# CARPETA CSS - Para profundizar
-Páginas web para profundizar en **CSS**
+Páginas web para profundizar en **CSS**.
 
-Cada página se encuentra en una carpeta numerada y cuyo nombre indica un resumen de los aspectos que se estudian
+Cada página se encuentra en una carpeta numerada y cuyo nombre indica un resumen de los aspectos que se estudian. Dentro de cada carpeta, se guardan la hoja de estilos en un fichero externo.
 
-No obstante, en cada página se añade un texto con comentarios en la cabecera para explicar más en detalle las propiedades de **CSS** involucradas
+Además, en cada página se añaden comentarios en la cabecera para explicar más en detalle las propiedades de **CSS** involucradas.
 
 Listado al enlace de las páginas que se implementan en las carpetas de esta sección:
 

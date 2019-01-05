@@ -1,9 +1,9 @@
 ﻿# CARPETA jQuery - Para profundizar
-Páginas web para profundizar en jQuery
+Páginas web para profundizar en jQuery.
 
-Cada página se encuentra en una carpeta separada
+Cada página se encuentra en una carpeta separada. Dentro de cada carpeta, se guardan las hojas de estilos y código JavaScript en archivos externos.
 
-En cada página se añade un texto con comentarios en la cabecera para explicar en detalle qué aspectos se ponen en práctica
+En cada página se añade un texto con comentarios en la cabecera para explicar en detalle qué aspectos se ponen en práctica.
 
 Listado al enlace de las páginas que se implementan en las carpetas de esta sección:
 

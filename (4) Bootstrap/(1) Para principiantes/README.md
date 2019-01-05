@@ -1,9 +1,9 @@
-﻿# Bootstrap para principiantes
-Páginas web con aspectos básicos de Bootstrap 4 para iniciarse en este framework
+﻿# CARPETA Bootstrap - Para principiantes
+Páginas web con aspectos básicos de Bootstrap 4 para iniciarse en este framework.
 
 No hay hoja de estilos, ya que todas las páginas están preparadas para utilizar solo aquellos que proporciona Bootstrap.
 
-Las páginas están preparadas para funcionar con la versión de Bootstrap 4, cuya carpeta debe estar situada en el mismo directorio que dichas páginas
+Las páginas están preparadas para funcionar con la versión de `Bootstrap 4.2.1`, cuya carpeta debe estar situada en el mismo directorio que las páginas.
 
 Listado de páginas con enlace para visualizar en el navegador:
 
