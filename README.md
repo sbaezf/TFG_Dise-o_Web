@@ -13,14 +13,16 @@ Recopilación de páginas web para el aprendizaje de maquetación de sitios web.
 
 **`NORMAS PARA COLABORADORES O ENVÍO DE SUGERENCIAS:`**
 
-**1.** Respetar la nomenclatura y estructura de cada sección.
+**1.** Respetar la nomenclatura, numeración y estructura de cada sección.
 
 **2.** Si la página es pequeña, no es necesario crear archivos externos para las hojas de estilo o JavaScript.
 
 **3.** Si la página es grande, crear una subcarpeta con el fichero HTML y todos los ficheros externos necesarios.
 
-**4.** Respetar la nomenclatura para los archivos externos. `css` para hojas de estilos, `js` para JavaScript, `img` para imágenes, `audio` para sonido y `video` para vídeos.
+**4.** Respetar la nomenclatura para las carpetas en las que se guardan los archivos externos. `css` para hojas de estilos, `js` para JavaScript, `img` para imágenes, `audio` para sonido y `video` para vídeos.
 
 **5.** Cada vez que se haga un cambio, explicarlo claramente en los comentarios, tanto en el archivo, como a la hora de subir las modificaciones al servidor.
+
+**6.** Si una página se ha basado en código externo, debe indicarse la licencia como comentario en el código HTML. Si varias páginas de una sección comparten la misma licencia, puede indicarse en el archivo Readme de la sección
 
 **Más información:** (Archivo externo Word de Google Drive)

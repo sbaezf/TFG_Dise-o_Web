@@ -5,6 +5,8 @@ No hay hoja de estilos, ya que todas las páginas están preparadas para utiliza
 
 Las páginas están preparadas para funcionar con la versión de `Bootstrap 4.2.1`, cuya carpeta debe estar situada en el mismo directorio que las páginas.
 
+Todas las páginas de esta sección están basadas en el manual de Bootstrap de la página web de W3Schools, cuya licencia permite utilizar el código de sus páginas para fines didácticos y de investigación. Ver licencia: https://www.w3schools.com/about/about_copyright.asp
+
 Listado de páginas con enlace para visualizar en el navegador:
 
 (1) Grid no responsivo.html			

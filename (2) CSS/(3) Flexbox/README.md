@@ -5,6 +5,8 @@ Las páginas que se guardan directamente en la carpeta incluyen los estilos en l
 
 Aquellas páginas de contenido más amplio se guardan en subcarpetas, con las hojas de estilos en archivos separados.
 
+Las páginas del (1) al (11) están basadas en el manual de Flexbox de la página web de W3Schools, cuya licencia permite utilizar el código de sus páginas para fines didácticos y de investigación. Ver licencia: https://www.w3schools.com/about/about_copyright.asp
+
 Listado de páginas con enlace (y carpeta según el caso) para visualizar en el navegador:
 
 (1) Flex direction.html
