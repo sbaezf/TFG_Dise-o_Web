@@ -12,16 +12,16 @@
 		
 			$(document).ready(function() {
 							
-				var funcionqueManeja = function() {
+				function funcionqueManeja(){ /* Función asociada a los eventos */
 					if ($(this).css("color")!="rgb(255, 0, 0)")
 						$(this).css("color", "rgb(255, 0, 0)");
-					 else
+					else
 						$(this).css("color", "rgb(0, 0, 255)");
 				}
 
 				$("p").on("click mouseenter mouseleave",funcionqueManeja);
 							
-				$("#desactivar-evento").on("click", function(){
+				$("#desactivar-evento").click(function(){
 					  $("p").off("click", funcionqueManeja);  })
 			});
 

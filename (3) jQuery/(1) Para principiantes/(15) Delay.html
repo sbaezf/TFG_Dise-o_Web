@@ -12,8 +12,8 @@
 			$("div").click(function() {			
 			   $("div.antes").slideUp(1000);
 			   $("div.antes").fadeIn(2000);
-			   $("div.despues").delay(2000);
-			   $("div.despues").slideUp(1000);
+			   $("div.despues").delay(2000); //Se retrasa la ejecución del segundo slideUp
+			   $("div.despues").slideUp(1000); 
 			   $("div.despues").fadeIn(1000);
 			});
 		});

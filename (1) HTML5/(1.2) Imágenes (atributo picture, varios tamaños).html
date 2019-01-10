@@ -15,8 +15,9 @@
 <body>
 
 <div>
-	<picture>	
-		<source
+	<picture> <!-- El atributo media tiene en cuenta el tamaño de pantalla, mientras que srcset dentro de 
+				   cada tamaño de pantalla tiene en cuenta la imagen que se mostrará según el DPI -->
+		<source 
 			media="(min-width: 600px)"
 			sizes="100vw"
 			srcset="img/opera-house-landscape-400.jpg 400w,

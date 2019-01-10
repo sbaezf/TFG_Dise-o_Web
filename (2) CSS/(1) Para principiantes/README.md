@@ -21,16 +21,16 @@ https://sbaezf.github.io/TFG_Web/(2)%20CSS/(1)%20Para%20principiantes/(2.1)%20An
 https://sbaezf.github.io/TFG_Web/(2)%20CSS/(1)%20Para%20principiantes/(2.2)%20Anidamiento_de_selectores_hijos2.html
 
 
-(3) Anidamiento_y_Agrupamiento_de_selectores.html
-https://sbaezf.github.io/TFG_Web/(2)%20CSS/(1)%20Para%20principiantes/(3)%20Anidamiento_y_Agrupamiento_de_selectores.html
+(3.1) Anidamiento_de_selectores_adyacentes.html		
+https://sbaezf.github.io/TFG_Web/(2)%20CSS/(1)%20Para%20principiantes/(3.1)%20Anidamiento_de_selectores_adyacentes.html
 
 
-(4.1) Anidamiento_de_selectores_adyacentes.html		
-https://sbaezf.github.io/TFG_Web/(2)%20CSS/(1)%20Para%20principiantes/(4.1)%20Anidamiento_de_selectores_adyacentes.html
+(3.2) Anidamiento_de_selectores_adyacentes2.html		
+https://sbaezf.github.io/TFG_Web/(2)%20CSS/(1)%20Para%20principiantes/(3.2)%20Anidamiento_de_selectores_adyacentes2.html
 
 
-(4.2) Anidamiento_de_selectores_adyacentes2.html		
-https://sbaezf.github.io/TFG_Web/(2)%20CSS/(1)%20Para%20principiantes/(4.2)%20Anidamiento_de_selectores_adyacentes2.html
+(4) Anidamiento_y_Agrupamiento_de_selectores.html
+https://sbaezf.github.io/TFG_Web/(2)%20CSS/(1)%20Para%20principiantes/(4)%20Anidamiento_y_Agrupamiento_de_selectores.html
 
 
 (5) Posicionamiento.html			

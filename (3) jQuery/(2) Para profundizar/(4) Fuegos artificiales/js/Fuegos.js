@@ -2,9 +2,6 @@
 	//Contador de imagen
 	var contador = 1;
 	
-	//Contador ejecuciones			
-	var textoEstandar = "Voy a aprobar DIW"
-	
 	//Número de segundos inicial
 	var segundos = 0;
 
@@ -47,7 +44,7 @@
 		$("#fuego" + contador).css("top", top + "px");
 		$("#fuego" + contador).css("z-index", contador);
 		
-		//Función callback para que se muestre el detonador cuando hayamos terminado
+		//Función callback para que se muestre la imagen correspondiente cuando se haya posicionado
 		$("#fuego" + contador).fadeIn(segundos);
 		
 		contador++;

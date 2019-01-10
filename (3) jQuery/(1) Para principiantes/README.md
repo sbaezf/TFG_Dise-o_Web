@@ -52,26 +52,12 @@ https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(14)%20
 (15) Delay.html					
 https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(15)%20Delay.html
 			
-(16) Stop y finish.html						
-https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(16)%20Stop%20y%20finish.html
+(16.1) Ejemplo de animación con jQuery.html	
+https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(16.1)%20Ejemplo%20de%20animaci%C3%B3n%20con%20jQuery.html
 
-(17.1) Ejemplo de animación con jQuery.html	
-https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(17.1)%20Ejemplo%20de%20animaci%C3%B3n%20con%20jQuery.html
+(16.2) Ejemplo de animación con jQuery.html
+https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(16.2)%20Ejemplo%20de%20animaci%C3%B3n%20con%20jQuery.html	
 
-(17.2) Ejemplo de animación con jQuery.html
-https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(17.2)%20Ejemplo%20de%20animaci%C3%B3n%20con%20jQuery.html
+(17) Animate y toggle.html https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(17)%20Animate%20y%20toggle.html
 
-(18) Animate y toggle.html					
-https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(18)%20Animate%20y%20toggle.html
-
-(19) Evento hover.html			
-https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(19)%20Evento%20hover.html			
-			
-(20) Eventos mouseover y mouseenter.html		
-https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(20)%20Eventos%20mouseover%20y%20mouseenter.html
-			
-(21) Eventos scroll y resize.html
-https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(21)%20Eventos%20scroll%20y%20resize.html
-			
-(22) Evento keydown.html		
-https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(22)%20Evento%20keydown.html			
+(18) Stop y finish.html https://sbaezf.github.io/TFG_Web/(3)%20jQuery/(1)%20Para%20principiantes/(18)%20Stop%20y%20finish.html

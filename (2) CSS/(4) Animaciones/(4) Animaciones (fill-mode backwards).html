@@ -38,9 +38,11 @@
 			height: 200px;		
 			background-color: red;
 			border-radius: 50%;
-			animation: myAnim 2s backwards 3s;
-			/* Probar con forwards y both */
-			/* animation: myAnim 2s both 3s; */
+			animation-name: myAnim;
+			animation-duration: 2s; 
+			animation-fill-mode: backwards;
+			animation-delay: 3s;
+			/* Probar con animation-fill-mode a forwards y both y observar las diferencias */
 		}
 
 	</style>

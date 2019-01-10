@@ -5,7 +5,7 @@
 	<title>Ejemplo secuencia </title>
 	<script type="text/javascript" src="jquery-3.3.1.js"></script>
 	<script type="text/javascript">
-		//En este ejemplo se muestra el una sequencia de funciones que encadenan efectos que se ejecutan en el tiempo que reciben como parámetro
+		//En este ejemplo se muestra el una secuencia de funciones que encadenan efectos que se ejecutan en el tiempo que reciben como parámetro
 		//La idea es mostrar que el parámetro de tiempo (en milisegundos) solo funciona con funciones relacionadas con efectos
 		//Por ejemplo, si incluimos la función css entre medias, se ejecutará sin tener en cuenta el parámetro de tiempo
 		//También se muestra el funcionamiento de la función callback, que se ejecuta inmediatamente después de cada efecto
@@ -16,8 +16,8 @@
 		};
 			
 		$(document).ready(function() {
-			$("#misdivs").fadeOut(2000).css({"background": "blue"}).fadeIn(2000);
-			$("#misdivs2").fadeOut(2000, function(){
+			$("#misdivs").fadeOut(2000).css({"background": "blue"}).fadeIn(2000); //Se ejecuta primero css
+			$("#misdivs2").fadeOut(2000, function(){ //Se ejecuta primero fadeOut, luego css y luego fadeIn
 				$("#misdivs2").css({"background": "red"});
 				$("#misdivs2").fadeIn(2000);
 			});
