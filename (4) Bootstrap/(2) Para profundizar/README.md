@@ -9,10 +9,10 @@ Las páginas están preparadas para funcionar con la versión de `Bootstrap 4.2.
 
 Listado al enlace de las páginas que se implementan en las carpetas de esta sección:
 
-Carpeta `(1) Ejemplo recopilatorio`. Página: https://sbaezf.github.io/TFG_Web/(4)%20Bootstrap/(2)%20Para%20profundizar/(1)%20Ejemplo%20recopilatorio/Recopilaci%C3%B3n.html
+Carpeta `(C1) Ejemplo recopilatorio`. Página: https://sbaezf.github.io/TFG_Web/(4)%20Bootstrap/(2)%20Para%20profundizar/(C1)%20Ejemplo%20recopilatorio/Recopilaci%C3%B3n.html
 
-Carpeta `(2) Maqueta 1`. Página: https://sbaezf.github.io/TFG_Web/(4)%20Bootstrap/(2)%20Para%20profundizar/(2)%20Maqueta%201/Maqueta%201.html			 
+Carpeta `(C2) Maqueta 1`. Página: https://sbaezf.github.io/TFG_Web/(4)%20Bootstrap/(2)%20Para%20profundizar/(C2)%20Maqueta%201/Maqueta%201.html			 
 
-Carpeta `(3) Maqueta 2`. Página: https://sbaezf.github.io/TFG_Web/(4)%20Bootstrap/(2)%20Para%20profundizar/(3)%20Maqueta%202/Maqueta%202.html			
+Carpeta `(C3) Maqueta 2`. Página: https://sbaezf.github.io/TFG_Web/(4)%20Bootstrap/(2)%20Para%20profundizar/(C3)%20Maqueta%202/Maqueta%202.html			
 
-Carpeta `(4) Maqueta 3`. Página: https://sbaezf.github.io/TFG_Web/(4)%20Bootstrap/(2)%20Para%20profundizar/(4)%20Maqueta%203/Maqueta%203.html
+Carpeta `(C4) Maqueta 3`. Página: https://sbaezf.github.io/TFG_Web/(4)%20Bootstrap/(2)%20Para%20profundizar/(C4)%20Maqueta%203/Maqueta%203.html
