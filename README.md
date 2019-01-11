@@ -21,7 +21,7 @@ Como excepción, podría darse el caso en páginas basadas en código externo qu
 
 **2.** Si la página es grande, crear una subcarpeta con el fichero HTML y todos los ficheros externos necesarios. En este caso, el nombre de cada subcarpeta comenzará con la letra C mayúscula y un número identificativo de su orden en la carpeta. Por ejemplo, `(C1) Carpeta con página`.
 
-**3.** En relación a las normas 1 y 2, cada vez que se añade una página hay que respetar la nomenclatura, numeración y estructura de cada sección.
+**3.** En relación a las normas 1 y 2, cada vez que se añade una página hay que respetar la nomenclatura, numeración y estructura de cada sección. Es decir, la página o subcarpeta nueva comenzará con la numeración que le corresponda de acuerdo con las anteriores.
 
 **4.** Respetar la nomenclatura para las carpetas en las que se guardan los archivos externos. `css` para hojas de estilos, `js` para JavaScript, `img` para imágenes, `audio` para sonido y `video` para vídeos. Si hay archivos externos con una extensión diferente, crear otra carpeta con un nombre intuitivo donde se guarden estos recursos.
 
