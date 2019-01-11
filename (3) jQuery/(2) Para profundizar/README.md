@@ -3,6 +3,8 @@ Páginas web para profundizar en jQuery.
 
 Cada página se encuentra en una carpeta separada. Dentro de cada carpeta, se guardan las hojas de estilos y código JavaScript en archivos externos.
 
+En esta carpeta, hay páginas que trabajan con jQueryUI, que amplia las funcionalidades de jQueryUI. En cada una de ellas, dentro de la carpeta `js` se ha guardado la subcarpeta `jquery-ui-1.12.1.custom` que contiene el código de esta librería. De la misma manera que con jQuery, aunque las páginas están preparadas para funcionar en local, se puede incluir la URL de un CDN para actualizar la versión. 
+
 En cada página se añade un texto con comentarios en la cabecera para explicar en detalle qué aspectos se ponen en práctica.
 
 Listado al enlace de las páginas que se implementan en las carpetas de esta sección:
