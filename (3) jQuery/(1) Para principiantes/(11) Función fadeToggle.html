@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejemplo de función fadeToggle</title>
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="jquery-3.3.1.js"></script>
+		<script type="text/javascript">
+			//Este ejemplo sirve para probar el funcionamiento de fadeToggle
+			//Esta función, desvanece o hace aparecer un elemento según si está oculto
+		
+			$(document).ready(function() {
+				
+				$("button").click(function() {
+					$("div:nth-of-type(1)").fadeToggle();		
+					$("div:nth-of-type(2)").fadeToggle("slow");
+					$("div:nth-of-type(3)").fadeToggle(3000);
+				});				  
+			});
+		</script>						
+		<style>
+			div{display: none};
+		</style>
+	</head>
+	
+	<body>
+		<div>Texto 1</div>
+		<div>Texto 2</div>
+		<div>Texto 3</div>
+		
+		<button>Mostrar/ocultar divs</button>
+		
+	</body>
+</html>
+
+

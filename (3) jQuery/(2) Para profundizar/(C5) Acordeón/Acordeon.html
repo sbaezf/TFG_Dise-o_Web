@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es-ES">
+	<!-- Este ejemplo se encarga de crear un cuadro desplegable de menú, cuyas opciones se muestran u ocultan si hacemos click 
+		 Para ello, hay que modificar el comportamiento original del efecto accordion de jQueryUI, que solo muestra una opción a la vez
+		 En este caso si hacemos click en una opción se queda visible hasta que volvamos a hacer click 
+		 
+		 La clave es que al contrario que en las especificaciones de la función accordion,
+		 se crean varios componentes accordion con el mismo nombre de clase y cada uno ocultan
+		 o muestra su ítem por separado -->
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Acordeón mejorado jQuery</title>
+		
+		<!-- jQuery -->
+		<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+		
+		<!-- jQueryUI -->
+		<link rel="stylesheet" href="js/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+		<script type="text/javascript" src="js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>	
+		
+		<script src="js/funcionalidad.js"></script>
+	</head>
+
+	<body>
+		<div class="accordion">
+			<h3>Item 1</h3>
+			<div>
+				<p>
+				Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+				ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+				amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+				odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+				</p>
+			</div>					
+		</div>
+		<div class="accordion">
+			<h3>Item 2</h3>
+			<div>
+				<p>
+				Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+				purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+				velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+				suscipit faucibus urna.
+				</p>
+			</div>
+		</div>
+		<div class="accordion">
+			<h3>Item 3</h3>
+			<div>
+				<p>
+				Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+				Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+				ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+				lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+				</p>
+				<ul>
+					<li>List item one</li>
+					<li>List item two</li>
+					<li>List item three</li>
+				</ul>
+			</div>
+		</div>
+		<div class="accordion">
+			<h3>Item 4</h3>
+			<div>
+				<p>
+				Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+				et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+				faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+				mauris vel est.
+				</p>
+				<p>
+				Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+				Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+				inceptos himenaeos.
+				</p>
+			</div>
+		</div>
+		<button id="btn1">Expandir</button>
+		<button id="btn2">Contraer</button>
+	</body>
+</html>

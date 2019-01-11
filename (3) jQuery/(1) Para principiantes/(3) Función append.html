@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Ejemplo uso append </title>
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		
+		//En este ejemplo se muestra el funcionamiento de append, que permite añadir elementos dinámicamente dentro de una etiqueta
+	
+		$(document).ready(function() {
+			$(".misdivs").on("mouseenter mouseleave", function(e){
+				$(".misdivs").append("<p><b>Texto</b> insertado en los div</p>");
+			})
+		});
+	</script>
+	<style>
+		body { background: #666; }
+		.misdivs {background: #623; }
+	</style>
+</head>
+<body>
+	<p>Posicionáte encima de los dos divs de debajo para ver cómo se inserta texto automáticamente</p>
+	<div class="misdivs">Mi div 1 </div>
+	<div class="misdivs">Mi div 2</div>
+</body>
+</html>
+
+

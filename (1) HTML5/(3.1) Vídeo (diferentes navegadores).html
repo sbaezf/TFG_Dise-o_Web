@@ -5,13 +5,14 @@
 <!-- Esta página sirve para probar el funcionamiento de la etiqueta video de HTML5
 	 La idea es definir varios formatos por si alguno de ellos no funciona en algún navegador
 	 Además, para navegadores antiguos, se define un objeto flash con el reproductor que solo
-	 funcionaría en aquellas versiones que únicamente no acepten etiquetas HTML5 -->
+	 funcionaría en aquellas versiones que únicamente no acepten etiquetas HTML5.
+	 El atributo autoplay no funciona en Google Chrome-->
 	 
 <body>
 
-	<video autoplay loop controls width="360" height="240">
-		<source src="videos/recetapollo.mp4" type="video/mp4"> <!-- Las tres primeras etiquetas source prueban con tres diferentes formatos -->
-		<source src="videos/recetapollo.ogv" type="video/ogg; codecs='theora,  vorbis'">
+	<video autoplay loop controls width="360" height="240"> <!-- Las tres primeras etiquetas source se definen con tres formatos diferentes -->
+		<source src="videos/recetapollo.mp4" type="video/mp4"> 
+		<source src="videos/recetapollo.ogv" type="video/ogg;">
 		<source src="videos/recetapollo.webm" type="video/webm">
 		<object type="application/x-shockwave-flash" data="flash/player_flv_maxi.swf"  height="240" width="360"> 
 			<param name="movie" value="flash/player_flv_maxi.swf"> <!-- Si no funciona con HTML5 probamos con un objeto Flash -->

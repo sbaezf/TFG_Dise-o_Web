@@ -1,40 +1,36 @@
 <!DOCTYPE html>
-<html><head>
-  
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
-  <title>Anidamiento, agrupamiento y precedencia de selectores</title>
-
-  <!-- En esta página se estudian:
-	1. Los selectores adyacentes con el operador +
-	2. Los selectores con anidamientos y el operator >
-	3. La precedencia entre selectores
-  -->
-  
-  <style>
-	  i+b{color:red}
-	  .nivel1{color:green}
-	  .nivel2{color:blue}
-	  .lista1 > ul > .nivel2 {font-size:xsmall}
-	  ul > ul > li {font-size: x-small; color:red} /* Si este selector fuera .lista1 > ul > li, 
-													el color rojo se aplicaría a todos los li de segundo nivel */
-  </style>
-</head>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Selectores basados en identificadores y atributos</title>
+	<!-- En este archivo se estudian los selectores a nivel de clase y los operadores adyacentes (+) y de agrupaciÃ³n (>)
+		 El operador > a diferencia del espacio. El selector "ul > ul > li" respecto a "ul ul li" solo coge el estilo si cada elemento
+		 estÃ¡ inmediatamente a continuaciÃ³n del otro. Con la segunda opciÃ³n podrÃ­a haber alguna etiqueta intermedia, por ejemplo,
+		 entre los dos ul -->
+	<style>
+		  i+b{color:red}
+		  .nivel1{color:green}
+		  .nivel2{color:blue}
+		  .lista1 > ul > .nivel2 {font-size:xsmall}
+		  ul > ul > li {font-size: x-small; color:red} /* Si este selector fuese .lista1 > ul > li, 
+														el color rojo se aplica a todos los li de segundo nivel */
+	 </style> 
+</head> 
 <body>
-
 	<p class="rojo">
 		<i>Titulo</i>:<b> Anidamiento y agrupamiento </b> de selectores (el texto anterior sale en rojo por un selector adyacente)
 	</p>
 
 	<ul class="lista1">
 
-		<li class="nivel1"> Agrupamiento (aquí se aplica el selector a nivel de clase) </li>
-		<li class="nivel1"> Anidamiento (aquí se aplica el selector a nivel de clase) </li>
+		<li class="nivel1"> Agrupamiento (en este caso se aplica el selector a nivel de clase) </li>
+		<li class="nivel1"> Anidamiento (en este caso se aplica el selector a nivel de clase) </li>
 		<ul>
-			<li class="nivel2"> Anidamiento de hijos (aquí se aplica el selector a nivel de clase, en caso de haber varios el último que se ha definido) </li>
-			<li class="nivel2"> Anidamiento de adyacentes (además, la fuente es más pequeña por el selector de agrupamiento)</li>
-			<li> Anidamiento comun (aquí sin clases pero se aplica selector de agrupamiento)</li>		
+			<li class="nivel2"> Anidamiento de hijos (en este caso se aplica el selector a nivel de clase, en caso de haber varios el que se ha definido posteriormente) </li>
+			<li class="nivel2"> Anidamiento de adyacentes (y la fuente xsmall por el selector de agrupamiento)</li>
+			<li> Anidamiento sin clases (pero se aplica selector de agrupamiento)</li>		
 		</ul>
 	</ul>
+</body> 
 
-</body>
 </html>

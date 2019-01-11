@@ -1,0 +1,85 @@
+/* La animación se ejecuta en varias direccione según el parámetro animation-direction */
+
+#c1{
+	position:absolute;
+	left:0%;
+	top:0%;
+	margin:0;
+	padding:0;
+	width: 8%;
+	margin-top:10px;
+	background-size: contain;
+	position: absolute;
+	z-index: 30;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;	
+	animation-name: coche1;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+#c2{
+	position:absolute;
+	left:92%;
+	top:0%;
+	width: 8%;
+	margin:0;
+	padding:0;
+	z-index: 30;
+	margin-top:9px;
+	background-size: contain;
+	position: absolute;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;	
+	animation-name: coche2;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+/* Lás imágenes con los coches se van desplazando y rotando en los últimos instantes */
+
+@keyframes coche1{
+	0%{
+		left: 0%;		
+	}
+	25%{
+		left: 10%;		
+	}
+	50%{
+		left: 20%;		
+	}
+	75%{
+		left: 30%;	
+	}
+	95%{
+		left:40%;
+		transform: rotate(-10deg);
+	}
+	100%{
+		left: 42%;
+		transform: rotate(-20deg);
+	}
+	
+}
+
+@keyframes coche2 {
+	0%{
+		left: 92%;		
+	}
+	25%{
+		left: 82%;
+	}
+	50%{
+		left: 72%;
+	}
+	75%{
+		left: 62%;
+	}
+	95%{
+		left:52%;
+		transform: rotate(10deg);
+	}
+	100%{
+		left: 50%;
+		transform: rotate(20deg);
+	}
+}

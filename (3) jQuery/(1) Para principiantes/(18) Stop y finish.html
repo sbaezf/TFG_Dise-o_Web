@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Comparativa de métodos stop() y finish()</title>
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			//En este ejemplo se prueba el funcionamiento de los métodos stop y finish, cuyas diferencias son las siguientes
+			//stop(false, false) o sin parámetros, detiene solo la animación actual y la deja en el estado que se encuentra cuando se ha parado
+			//stop(true, false) detiene todas las animaciones que se están ejecutando o están esperando y las deja en el estado actual
+			//stop(true, true) detiene todas las animaciones que se están ejecutando o en cola de espera y deja las que se ejecutan en el estado final
+			//stop(false, true) detiene la animación actual y la deja en el estado final
+			//finish detiene todas las animaciones que se están ejecutando o en cola de espera y deja todas en el estado final
+		
+			$("div").click(function() {			
+			   $("div.primero").animate({"left": "+=50px"}, 10000);
+			   $("div.segundo").delay(5000);
+			   $("div.segundo").animate({"top": "+=50px"}, 10000);		  
+			});
+			
+			$("#stop").click(function() {	//Probar a cambiar los parámetros		
+			   $("div").stop(true, true);
+			});
+			
+			$("#finish").click(function() {			
+			   $("div").finish();
+			});
+		});
+	</script>
+	<style>
+		div {
+			width: 70px; position: relative;
+		}
+		div.primero {	
+			background-color:greenyellow;
+		}
+		div.segundo {
+			background-color:red;
+		}
+	</style>
+</head>
+<body>
+	<h3> Pincha en cualquiera de los textos </h3>
+	<div class="primero"><p>Antes </p> </div>
+	<div class="segundo"><p>Después  </p> </div>
+	<div class="primero"><p>Antes </p> </div>
+	<div class="segundo"><p>Después  </p> </div>
+	<button id="stop">Parar con stop</button>
+	<button id="finish">Parar con finish</button>
+</body>
+</html>

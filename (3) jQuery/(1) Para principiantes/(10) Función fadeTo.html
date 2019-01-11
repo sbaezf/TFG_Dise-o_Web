@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejemplo de función fadeTo</title>
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="jquery-3.3.1.js"></script>
+		<script type="text/javascript">
+			//Este ejemplo sirve para probar el funcionamiento de la función fadeTo
+			//A diferencia de fadeOut, en lugar de desaparecer el elemento, en este caso se cambia la opacidad
+		
+			$(document).ready(function() {
+				
+				$("button").click(function() {
+					$("div:nth-of-type(1)").fadeTo("slow", 0.15);		
+					$("div:nth-of-type(2)").fadeTo("slow", 0.4);
+					$("div:nth-of-type(3)").fadeTo("slow", 0.7);
+				});				  
+			});
+		</script>						
+		
+	</head>
+	
+	<body>
+		<div>Texto 1</div>
+		<div>Texto 2</div>
+		<div>Texto 3</div>
+		
+		<button>Cambiar opacidad</button>
+		
+	</body>
+</html>
+
+
