@@ -1,0 +1,20 @@
+body{ /* Imagen arriba a la derecha sin repetirse */
+	background: lightblue url("../img/cyl.jpg") no-repeat top right;				
+}
+
+#contenedor{ /* Contenedor con la imagen en el centro. Se desborda y se añade scroll con overflow */				
+	box-shadow: 2px 2px 5px black;
+	width: 200px;
+	height: 200px;
+	overflow: auto;
+	position: absolute;
+	left: 50%; /* El contenedor se empieza a posicionar en el centro */
+	top: 50%;
+	transform: translate(-50%,-50%); /* Permite compensar el desplazamiento del contenedor para 
+	que su centro sea el de la página */
+}						
+
+#contenedor img{
+	width: 300px;
+	height: 300px;				
+}

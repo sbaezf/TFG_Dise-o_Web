@@ -1,19 +1,19 @@
-<!DOCTYPE html>
+Ôªø<!DOCTYPE html>
 
 <html>
 <head>
-	<title>Ejemplo de animaciÛn con delay()</title>
+	<title>Ejemplo de animaci√≥n con delay()</title>
 	<script type="text/javascript" src="jquery-3.3.1.js"></script>
 	<script type="text/javascript">
-		//Este ejemplo sirve para explicar el funcionamiento de delay, que permite aÒadir un retardo de n milisegundos
-		//Solo funciona con aquellos mÈtodos relacionados con efectos y animaciones y trabajan con un tiempo en milisegundos como par·metro
+		//Este ejemplo sirve para explicar el funcionamiento de delay, que permite a√±adir un retardo de n milisegundos
+		//Solo funciona con aquellas funciones relacionadas con efectos y animaciones y trabajan con un tiempo en milisegundos como par√°metro
 	
 		$(document).ready(function(){
 			$("div").click(function() {			
 			   $("div.antes").slideUp(1000);
 			   $("div.antes").fadeIn(2000);
-			   $("div.despues").delay(2000);
-			   $("div.despues").slideUp(1000);
+			   $("div.despues").delay(2000); //Se retrasa la ejecuci√≥n del segundo slideUp
+			   $("div.despues").slideUp(1000); 
 			   $("div.despues").fadeIn(1000);
 			});
 		});
@@ -30,9 +30,9 @@
 <body>
 	<h3> Pincha en cualquiera de los textos </h3>
 	<div class="antes"><p>Antes </p> </div>
-	<div class="despues"><p>DespuÈs  </p> </div>
+	<div class="despues"><p>Despu√©s  </p> </div>
 	<div class="antes"><p>Antes </p> </div>
-	<div class="despues"><p>DespuÈs  </p> </div>
+	<div class="despues"><p>Despu√©s  </p> </div>
 </body>
 </html>
 

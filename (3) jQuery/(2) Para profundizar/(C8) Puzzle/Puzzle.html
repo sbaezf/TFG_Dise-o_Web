@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Puzzle</title>
+    
+	<!-- Bootstrap -->
+    <link href="bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<script src="bootstrap-4.0.0/js/bootstrap.min.js"></script>	
+	
+	<!-- jQuery -->
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+	
+	<link href="css/style.css" rel="stylesheet">
+	<script src="js/scripts.js"></script>
+	
+	<!-- Esta página simula un juego con un puzzle que se puede resolver con métodos de jQuery y jQueryUI.
+		Se emplean básicamente las funciones animate, each, css, on y sortable (esta última de jQueryUI)-->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 id="textoCabecera" class="text-center">
+                Haz click en una imagen para comenzar.
+            </h3>
+            </div>
+        </div>
+        <div class="row" id="centro">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <p>
+                    <img id="perroFoto" class="lateral" src="img/perro1.jpg">
+                </p>
+                <p>
+                    <img id="aguilaFoto" class="lateral" src="img/águila.jpg">
+                </p>
+                <p>
+                    <img id="escarabajoFoto" class="lateral" src="img/escarabajo.jpg">
+                </p>
+            </div>
+            <div class="col-sm-8 col-md-8 col-lg-8">
+                <ul id="perro" class="listas">
+                    <li class="ui-state-default" data-position="1"><img src="img/perro_1.jpg" id="1"></li>
+                    <li class="ui-state-default" data-position="2"><img src="img/perro_2.jpg" id="2"></li>
+                    <li class="ui-state-default" data-position="3"><img src="img/perro_3.jpg" id="3"></li>
+                    <li class="ui-state-default" data-position="4"><img src="img/perro_4.jpg" id="4"></li>
+                    <li class="ui-state-default" data-position="5"><img src="img/perro_5.jpg" id="5"></li>
+                    <li class="ui-state-default" data-position="6"><img src="img/perro_6.jpg" id="6"></li>
+                    <li class="ui-state-default" data-position="7"><img src="img/perro_7.jpg" id="7"></li>
+                    <li class="ui-state-default" data-position="8"><img src="img/perro_8.jpg" id="8"></li>
+                    <li class="ui-state-default" data-position="9"><img src="img/perro_9.jpg" id="9"></li>
+                    <li class="ui-state-default" data-position="10"><img src="img/perro_10.jpg" id="10"></li>
+                    <li class="ui-state-default" data-position="11"><img src="img/perro_11.jpg" id="11"></li>
+                    <li class="ui-state-default" data-position="12"><img src="img/perro_12.jpg" id="12"></li>
+                    <li class="ui-state-default" data-position="13"><img src="img/perro_13.jpg" id="13"></li>
+                    <li class="ui-state-default" data-position="14"><img src="img/perro_14.jpg" id="14"></li>
+                    <li class="ui-state-default" data-position="15"><img src="img/perro_15.jpg" id="15"></li>
+                    <li class="ui-state-default" data-position="16"><img src="img/perro_16.jpg" id="16"></li>
+                </ul>
+                <ul id="aguila" class="listas">
+                    <li class="ui-state-default" data-position="1"><img src="img/ag_1.jpg" id="1"></li>
+                    <li class="ui-state-default" data-position="2"><img src="img/ag_2.jpg" id="2"></li>
+                    <li class="ui-state-default" data-position="3"><img src="img/ag_3.jpg" id="3"></li>
+                    <li class="ui-state-default" data-position="4"><img src="img/ag_4.jpg" id="4"></li>
+                    <li class="ui-state-default" data-position="5"><img src="img/ag_5.jpg" id="5"></li>
+                    <li class="ui-state-default" data-position="6"><img src="img/ag_6.jpg" id="6"></li>
+                    <li class="ui-state-default" data-position="7"><img src="img/ag_7.jpg" id="7"></li>
+                    <li class="ui-state-default" data-position="8"><img src="img/ag_8.jpg" id="8"></li>
+                    <li class="ui-state-default" data-position="9"><img src="img/ag_9.jpg" id="9"></li>
+                    <li class="ui-state-default" data-position="10"><img src="img/ag_10.jpg" id="10"></li>
+                    <li class="ui-state-default" data-position="11"><img src="img/ag_11.jpg" id="11"></li>
+                    <li class="ui-state-default" data-position="12"><img src="img/ag_12.jpg" id="12"></li>
+                    <li class="ui-state-default" data-position="13"><img src="img/ag_13.jpg" id="13"></li>
+                    <li class="ui-state-default" data-position="14"><img src="img/ag_14.jpg" id="14"></li>
+                    <li class="ui-state-default" data-position="15"><img src="img/ag_15.jpg" id="15"></li>
+                    <li class="ui-state-default" data-position="16"><img src="img/ag_16.jpg" id="16"></li>
+                </ul>
+                <ul id="escarabajo" class="listas">
+                    <li class="ui-state-default" data-position="1"><img src="img/esc_1.jpg" id="1"></li>
+                    <li class="ui-state-default" data-position="2"><img src="img/esc_2.jpg" id="2"></li>
+                    <li class="ui-state-default" data-position="3"><img src="img/esc_3.jpg" id="3"></li>
+                    <li class="ui-state-default" data-position="4"><img src="img/esc_4.jpg" id="4"></li>
+                    <li class="ui-state-default" data-position="5"><img src="img/esc_5.jpg" id="5"></li>
+                    <li class="ui-state-default" data-position="6"><img src="img/esc_6.jpg" id="6"></li>
+                    <li class="ui-state-default" data-position="7"><img src="img/esc_7.jpg" id="7"></li>
+                    <li class="ui-state-default" data-position="8"><img src="img/esc_8.jpg" id="8"></li>
+                    <li class="ui-state-default" data-position="9"><img src="img/esc_9.jpg" id="9"></li>
+                    <li class="ui-state-default" data-position="10"><img src="img/esc_10.jpg" id="10"></li>
+                    <li class="ui-state-default" data-position="11"><img src="img/esc_11.jpg" id="11"></li>
+                    <li class="ui-state-default" data-position="12"><img src="img/esc_12.jpg" id="12"></li>
+                    <li class="ui-state-default" data-position="13"><img src="img/esc_13.jpg" id="13"></li>
+                    <li class="ui-state-default" data-position="14"><img src="img/esc_14.jpg" id="14"></li>
+                    <li class="ui-state-default" data-position="15"><img src="img/esc_15.jpg" id="15"></li>
+                    <li class="ui-state-default" data-position="16"><img src="img/esc_16.jpg" id="16"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="botones">
+                <button id="revolver">Revolver</button>
+                <button id="ordenar">Ordenar</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

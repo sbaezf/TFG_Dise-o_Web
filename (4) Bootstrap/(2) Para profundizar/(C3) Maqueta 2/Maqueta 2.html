@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Maqueta con Bootstrap</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="../bootstrap-4.2.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/Maqueta 2.css" rel="stylesheet">    
+	
+	<!-- Página que implementa una máqueta de una web responsiva con Bootstrap
+		 Se emplea el modelo en forma de grid, la propiedad display de Bootstrap, orden de elementos, espaciado y estilos del modelo de cajas
+		 Probar a redimensionar para ver cómo cambia según la resolución	
+	-->
+	
+	<!-- Basado en el código del sitio https://github.com/ajgallego/Laravel-4-Bootstrap-Starter-Site con licencia GNU -->
+	
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+			<div class="col-md-12 p-2">
+				<div class="item" style="background-color:lightgreen;">
+					Header
+				</div>
+			</div>
+        </div>
+        <div class="row">
+			<div class="offset-md-3 col-sm-3 col-6 p-2">
+				<div class="item" style="background-color:lightblue;">
+					1
+				</div>
+			</div>
+			<div class="col-sm-3 col-6 p-2">
+				<div class="item" style="background-color:lightblue;">
+					2
+				</div>
+			</div>
+			<div class="w-100 d-none d-md-block">
+			</div>
+			<div class="col-sm-3 col-6 p-2">
+				<div class="item" style="background-color:lightblue;">
+					3
+				</div>
+			</div>
+			<div class="offset-md-6 col-sm-3 col-6 p-2">
+				<div class="item" style="background-color:lightblue;">
+					4
+				</div>
+			</div>
+        </div>
+        <div class="row d-none d-sm-block d-md-none">
+			<div class="col-12 p-2">
+				<div class="item" style="background-color:#00ffff;">
+					Tablet
+				</div>
+			</div>
+        </div>
+        <div class="row">
+			<div class="order-md-4 col-sm-3 col-6 p-2">
+				<div class="item" style="background-color:silver;">
+					a
+				</div>
+			</div>
+			<div class="order-md-3 col-sm-3 col-6 p-2">
+				<div class="item" style="background-color:silver;">
+					b
+				</div>
+			</div>
+			<div class="order-md-2 col-sm-3 col-6 p-2">
+				<div class="item" style="background-color:silver;">
+					c
+				</div>
+			</div>
+			<div class="order-md-1 col-sm-3 col-6 p-2">
+				<div class="item" style="background-color:silver;">
+					d
+				</div>
+			</div>
+        </div> 
+        <div class="row d-none d-md-block">
+			<div class="col-12 p-2">
+				<div class="item" style="background-color:#00ffff;">
+					Desktop
+				</div>
+			</div>
+        </div>
+        <div class="row d-block d-sm-none">
+			<div class="col-12 p-2">
+				<div class="item" style="background-color:#00ffff;">
+					Mobile
+				</div>
+			</div>
+        </div>
+        <div class="row">
+			<div class="order-md-2 col-md-3 col-sm-6 col-12 p-2">
+				<div class="item" style="background-color:orange;">
+					:D
+				</div>
+			</div>
+			<div class="offset-md-3 order-md-1 col-md-3 col-sm-6 d-none d-sm-block p-2">
+				<div class="item" style="background-color:orange;">
+					:(
+				</div>
+			</div>
+        </div>
+        <div class="row">
+			<div class="col-12 d-none d-sm-block p-2">
+				<div class="item" style="background-color:lightgreen;">
+					Footer
+				</div>
+			</div>
+        </div>
+    </div>   
+   
+  </body>
+</html>

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Ejemplo de animación con animate() y </title>
+
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	
+	<!-- Se añade la librería jQueryUI para poder arrastrar la caja -->
+	<link rel="stylesheet" href="js/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+	<script type="text/javascript" src="js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+	
+	<script type="text/javascript" src="js/Deplazar y arrastrar.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/Deplazar y arrastrar.css"/>
+	
+</head>
+<body>
+	<!-- Esta página se encarga de desplazar el cuadrado en sentido horizontal o vertical, con coordenadas positivas o negativas
+		 un número de pixels equivalente al contenido de la caja de texto. Esto se hace con la función animate
+		 
+		 Además cuando la caja verde está dentro del cuadrado gris, se cambia de color a rojo con la función "css" 
+		 y comprobando las coordenadas con las funciones offset y outerWidth y outerHeight
+		 
+		 En este caso se añade la funcionalidad de que con jQueryUI podemos arrastrar la caja directamente con el ratón 
+		 
+		 Este ejemplo añade funcionalidades más avanzadas a la página "(17.1) Ejemplo de animación con jQuery" de la carpeta "Para principiantes" -->
+
+	<button id="left">&laquo;</button> 
+    <button id="right">&raquo;</button>
+	<button id="top">&laquo;</button> 
+    <button id="bottom">&laquo;</button>
+	<input type="number" value="50" id="mov"></input>
+	<div class="block"><span id="texto">Utiliza los botones de arriba o arrastra esta caja</div>
+	<div class="cuadrado"></div>
+</body>
+</html>
+

@@ -1,0 +1,42 @@
+span.negrita{
+	font-weight: bold;
+}
+
+/* Estilo de float a la derecha */
+.derecha {
+	width: 50px;
+	color: #F9F6C3;
+	background-color: #789498;
+	text-align: center;
+	font-weight: bold;
+	float: right;
+	margin: 2px;
+	padding: 5px;
+	border: 2px solid #123D43;
+}
+.estrecho {
+	height: 129px;
+}
+
+/* Estilo de float a la derecha con clear */
+.derechanoafectado {
+	color: #F9DDC3;
+	background-color: #31174A;
+	text-align: center;
+	font-weight: bold;
+	float: right;
+	clear: right;
+}
+
+/* Estilo de float a la izquierda */
+.izquierda {
+	float: left;
+	background-color: #789498;
+	height: 100px;
+	margin: 2px;
+}
+
+/* Propiedad clear para eliminar el efecto de float */
+.parrafonoafectado {
+	clear: both;
+}

@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
 
-<!-- Esta página sirve para probar el funcionamiento de la etiqueta audio de HTML5 
-	 En este caso el audio se reproduce automáticamente y de forma continua sin dar al usuario la opción de pararlo,
-	 ya que no mostramos los controles -->
+	<title>Etiqueta audio</title>
+
+	<!-- Esta página sirve para probar el funcionamiento de la etiqueta audio de HTML5 
+		 En este caso el audio se reproduce automáticamente y de forma continua sin dar al usuario la opción de pararlo,
+		 ya que no mostramos los controles. En Google Chrome no funciona el atributo autoplay -->
 
 <body>
 
-	<h5>Escucha el audio de fondo...</h5>
+	<h5>Escucha el audio de fondo... (excepto en Google Chrome que no soporta la propiedad autoplay)</h5>
 
-	<audio id="player" src="sonidos/Developers.mp3" loop autoplay></audio> <!-- Autoplay no está soportado en Google Chrome -->
+	<audio id="player" src="audio/Developers.mp3" loop autoplay></audio> <!-- Autoplay no está soportado en Google Chrome -->
 
 </body>
 </html>

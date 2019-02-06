@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo de animación con FadeOut()</title>
+	<meta charset="ISO-8859-1">
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		//Este ejempo sirve para explicar el funcionamiento de la función fadeOut que hace que un elemento
+		//desaparezca con un efecto de desvanecimiento
+	
+		$(document).ready(function() {
+
+			$("span").hover(
+				function () { $(this).addClass("hilite"); }, 
+				function () { $(this).removeClass("hilite");}
+			); 
+				
+			 $("span").click(function () {
+				 $(this).fadeOut(1000, function () {
+					  $("div").text("'" + $(this).text() + "' ¡Se ha desvanecido!");
+					  $(this).remove();
+				  }); //function del Fade
+			  }); //Function del Click			
+		});
+	</script>
+	<style media="screen">		
+		span { cursor:pointer; }
+		span.hilite { background:yellow; }
+		div { display:inline; color:red; } /*Se pone inline para que al quitarlo se ocupe su hueco */
+	</style>
+
+</head>
+<body>
+	<h3>Encuentra los adjetivos <div></div></h3> 
+	<p> La chaqueta <span>roja</span> el lo mejor cuando hace un tiempo <span>cálido</span> ¿verdad?</p>
+</body>
+</html>
+

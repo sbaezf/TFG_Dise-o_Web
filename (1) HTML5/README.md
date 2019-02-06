@@ -1,9 +1,11 @@
 ﻿# HTML5
-En esta carpeta se incluyen páginas sobre las etiquetas multimedia: `<picture>`, `<audio>` y `<video>`. Además, también hay ejemplos sobre las etiquetas semánticas de **HTML5**
+En esta carpeta se incluyen páginas sobre las etiquetas multimedia: `<picture>`, `<audio>` y `<video>`. Además, también hay ejemplos sobre las etiquetas semánticas de **HTML5**.
 
-La mayoría de páginas incluyen los estilos en la etiqueta `<style>`
+Las páginas que se encuentran directamente en esta carpeta incluyen los estilos en la etiqueta `<style>`. Esta es una práctica poco recomendable, pero válida en este caso, ya que facilita el estudio sin necesidad de abrir **HTML** y **CSS** por separado.
 
-Esta es una práctica poco recomendable, pero válida en este caso, ya que facilita el estudio sin necesidad de abrir **HTML** y **CSS** por separado
+Aquellas páginas de contenido más amplio se guardan en subcarpetas, con las hojas de estilos en archivos separados.
+
+Cada una de las páginas está numerada e incluye un título descriptivo de las etiquetas de **HTML5** que se estudian en la misma.
 
 Listado de páginas con enlace para visualizar en el navegador:
 
@@ -51,5 +53,4 @@ https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(3.3)%20V%C3%ADdeo%20(iframe).html
 https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(4.1)%20Etiquetas%20sem%C3%A1nticas%20(sin%20estilos).html
 
 
-(4.2) Etiquetas semánticas (con estilos).html
-https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(4.2)%20Etiquetas%20sem%C3%A1nticas%20(con%20estilos).html
+Carpeta `(C1) Etiquetas semánticas (con hoja estilos en carpeta css)`. Página: https://sbaezf.github.io/TFG_Web/(1)%20HTML5/(C1)%20Etiquetas%20sem%C3%A1nticas%20(con%20hoja%20estilos%20en%20carpeta%20css)/Etiquetas%20sem%C3%A1nticas%20(con%20estilos).html
